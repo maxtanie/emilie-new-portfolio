@@ -1,0 +1,43 @@
+.bg-header {
+  position: relative;
+  background-image: url("../../images/home/header/fond-index-emilie.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  transform: scale(1.01); }
+  .bg-header .content {
+    width: 52%;
+    max-width: 100%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-35%);
+    padding: 15px 65px;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); }
+    .bg-header .content .text-header-presentation {
+      font-size: 1.2em;
+      margin-top: 15px; }
+    @media screen and (max-width: 1068px) {
+      .bg-header .content {
+        width: 100%;
+        font-size: 1em;
+        top: 40%;
+        transform: translateY(-40%); } }
+  .bg-header .scrollDown-btn {
+    width: 100%;
+    position: absolute;
+    bottom: 35px;
+    text-align: center;
+    color: #fff; }
+    .bg-header .scrollDown-btn .scrollDown {
+      cursor: pointer;
+      font-size: 2.5em;
+      margin-bottom: 5px;
+      transition: .3s ease-in-out; }
+      .bg-header .scrollDown-btn .scrollDown:hover {
+        transform: scale(0.8); }
+
+.link-anchors {
+  text-decoration: none;
+  color: #fff; }

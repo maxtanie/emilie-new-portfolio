@@ -1,0 +1,39 @@
+.main {
+  width: 85%;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 120px; }
+  .main .prev,
+  .main .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #12283F;
+    transition: font-size 0.35s cubic-bezier(0, 1, 0, 1); }
+    .main .prev:hover,
+    .main .next:hover {
+      font-size: 30px;
+      transition: font-size 0.35s cubic-bezier(0, 1, 0, 1); }
+  .main .prev {
+    left: -45px; }
+  .main .next {
+    right: -45px; }
+  .main .image-container {
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    vertical-align: top;
+    display: inline-block;
+    width: 100%; }
+    .main .image-container .image {
+      width: 690px !important;
+      font-size: 25px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 18px;
+      margin-left: 0; }
+      .main .image-container .image:last-of-type {
+        margin-right: 0; }

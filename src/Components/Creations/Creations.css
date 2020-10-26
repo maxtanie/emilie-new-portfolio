@@ -1,0 +1,10 @@
+#creations {
+  min-height: 100vh;
+  background: #4bd4f2;
+  padding-bottom: 90px;
+  padding-top: 50px;
+  text-align: center; }
+  #creations .container-portfolio {
+    width: 100%;
+    margin: auto;
+    display: block; }

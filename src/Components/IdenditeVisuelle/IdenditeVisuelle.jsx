@@ -25,7 +25,7 @@ export default class LogoCreations extends Component {
           bgIcon={iconIdentiteVisuel}
           icon={iconIdentiteVisuelPetit}
           link="identite-de-marque"
-          txt="Je vous accompagne durant toute la création de votre identité visuelle. De la réflexion sur votre univers et vos messages, à la réalisation de votre logo, jusqu'au choix de vos couleurs, et de votre typographie. Je suis à vos côtés pour imaginer ensemble une identité de marque à décliner sur l'ensemble de vos supports de communication (réseaux sociauux, brochures, flyers, site web...)"
+          txt="Je vous accompagne durant toute la création de votre identité visuelle. De la réflexion sur votre univers et vos messages, à la réalisation de votre logo, jusqu'au choix de vos couleurs, et de votre typographie. Je suis à vos côtés pour imaginer ensemble une identité de marque à décliner sur l'ensemble de vos supports de communication (réseaux sociaux, brochures, flyers, site web...)"
           txtButton="Créer mon identité visuelle"
         />
       </BlocCreations>

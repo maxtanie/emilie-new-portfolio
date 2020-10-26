@@ -1,0 +1,136 @@
+@import url("./Font.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4f0fd5; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4f0fd5; }
+
+body {
+  font-family: "notosansjp regular";
+  overflow-x: hidden; }
+
+.lighter {
+  font-weight: lighter !important; }
+
+.auto {
+  max-width: 100%;
+  margin: auto; }
+
+.purple-bg-color {
+  background-color: #4c0bd9; }
+
+.yellow-light-bg-color {
+  background-color: #fffa65 !important; }
+
+.bg-yellow-color {
+  background-color: #ffff05; }
+
+.fluo-yellow-color {
+  color: #ffff05 !important; }
+
+.purple-color {
+  color: #4c0bd9; }
+
+.red-apple-color {
+  color: #ff3838 !important; }
+
+.yellow-color {
+  color: #ffd600 !important; }
+
+.violet-pink-color {
+  color: #e61b76; }
+
+.violet-pink-2-color {
+  color: #bc04bf; }
+
+.white {
+  color: #fff; }
+
+.great-wishes {
+  font-family: "great wishes"; }
+
+.lazer {
+  font-family: "lazer"; }
+
+.noto-black {
+  font-family: "notosansjp black"; }
+
+.noto-bold {
+  font-family: "notosansjp bold"; }
+
+.noto-medium {
+  font-family: "notosansjp medium"; }
+
+.noto-regular {
+  font-family: "notosansjp regular" !important; }
+
+.noto-light {
+  font-family: "notosansjp light"; }
+
+.noto-thin {
+  font-family: "notosansjp thin"; }
+
+.list-no-items {
+  list-style-type: none; }
+
+.section-content {
+  padding: 50px; }
+
+.td-none {
+  text-decoration: none; }
+
+.section-padding {
+  padding: 80px 30px; }
+
+.center {
+  text-align: center; }
+
+.title-section {
+  text-align: center;
+  font-size: 3em; }
+
+.title-creations {
+  font-size: 38px; }
+
+.content-informations {
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 90px; }
+  .content-informations .flex-creations {
+    display: flex;
+    align-items: center; }
+  .content-informations .txt-creations {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 1.7; }
+
+.para-size {
+  width: 1000px !important;
+  max-width: 100%; }
+
+.auto {
+  margin: auto;
+  display: block; }
+
+.title-creations {
+  width: 450px;
+  margin: auto;
+  display: block; }

@@ -1,0 +1,21 @@
+#a-propos {
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  #a-propos .content-about {
+    display: grid;
+    grid-template-columns: 660px 680px;
+    grid-gap: 90px; }
+    #a-propos .content-about .bloc-txt-about .title-about {
+      font-size: 70px;
+      font-weight: bold; }
+    #a-propos .content-about .bloc-txt-about .txt-about {
+      margin-top: 25px;
+      font-size: 35px;
+      line-height: 1.7; }
+    #a-propos .content-about .img-about {
+      width: 680px; }
+
+.container-main {
+  width: 1400px;
+  max-width: 95%;
+  margin: auto; }

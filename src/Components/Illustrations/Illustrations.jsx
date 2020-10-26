@@ -34,8 +34,9 @@ export default class Illustrations extends Component {
           bgIcon={bgIllustration}
           icon={iconIllustrationPetite}
           link="illustrations"
-          txt="Conception digitale painting et art traditionnelle, j'illustre des charactères design, des paysages et de l'architecture. Je propose trois options selon vos projets en illustrations graphique."
-          txtButton="En savoir plus"
+          txt="Quoi d emieux que l'illustration pour vous différencier ? Grâce à mes talents de dessinatrice, je créer pour vous un univers original autour de personnages, de bâtiments (architecture), de paysages et de natures mortes. J'iiinnterviens sur vos textes"
+          txtButton="Adopter l'illustration comme outil de différencation"
+          btnWidth="600px"
         />
       </BlocCreations>
     );
