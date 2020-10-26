@@ -1,0 +1,44 @@
+[
+  {
+    "DefaultsCreations": [
+      {
+        "item": "web",
+        "itemsName": "Graphiste / Print / Web",
+        "img": "img/portfolio/presentation-titi-burger-2020.jpg",
+        "name": "titi-burger",
+        "alt": "Titi burger",
+        "mainTitle": "Site web de restauration",
+        "txtInformations": "Graphiste Print et mise en page, prototypage <br/> Titres : Titi Burger  ",
+        "bgColor": "#0E2840"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "web",
+        "itemsName": "Design / Web",
+        "img": "img/portfolio/web/newsletter-shephora.jpg",
+        "name": "newsletter",
+        "alt": "Newsletter",
+        "mainTitle": "Newsleter",
+        "txtInformations": "Graphiste, Print et montage photo, design colors<br/> Flyers de boutique cosplays ",
+        "bgColor": "#fe3837"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "web",
+        "itemsName": "Graphiste / Print / Mobile / Web",
+        "img": "img/portfolio/web/appli-mob-titi-burger.jpg",
+        "name": "application-mobile",
+        "alt": "Application mobile",
+        "mainTitle": "Application mobile",
+        "txtInformations": "Graphiste Print et mise en page, prototypage Titres : Titi Burger Végétal",
+        "bgColor": "#4bd2f0"
+      }
+    ]
+  }
+]

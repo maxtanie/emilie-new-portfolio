@@ -1,0 +1,230 @@
+.grid-img {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  grid-gap: 20px;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.img-crea {
+  width: 100%;
+  height: 385px;
+  display: block;
+  border: 10px solid orangered;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 1s ease;
+  }
+}
+
+.left-infs {
+  width: 50%;
+  max-width: 100%;
+  position: sticky;
+  top: 0px;
+  height: 100%;
+  z-index: 9999;
+  padding: 0 20px;
+}
+
+
+
+.right-infs {
+  width: 48%;
+  max-width: 100%;
+  margin-left: 3%;
+}
+
+.id {
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.name-2 {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+.item {
+  font-size: 55px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "roboto";
+  margin-bottom: 30px;
+}
+
+.descriptions {
+  width: 450px;
+  max-width: 90%;
+  line-height: 1.6;
+}
+
+.btns {
+  position: fixed;
+  width: 1200px;
+  max-width: 100%;
+  background: #000;
+
+  button {
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    font-size: 1.2em;
+    color: #f44336;
+    font-weight: bold;
+    border: 1px solid #f44336;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+
+    &:nth-child(1) {
+      left: -75px;
+    }
+
+    &:nth-child(2) {
+      right: -50px;
+
+      margin-top: -4px;
+    }
+
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+}
+
+.content {
+  margin-top: 0px;
+}
+
+.f-size-35px {
+  font-size: 35px;
+}
+
+.size-txt {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  line-height: 1.7;
+}
+
+.slider {
+  position: absolute;
+}
+
+.padding-portfolio {
+  padding: 60px;
+}
+
+.img {
+  width: 650px;
+  max-width: 100%;
+}
+
+.img-portfolio {
+  max-width: 75%;
+  margin: auto;
+  display: block;
+  margin-top: 25px;
+
+}
+
+.infos {
+  width: 50%;
+  max-width: 100%;
+
+  h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
+
+.mt {
+  margin-top: 40%;
+}
+
+.ml {
+  margin-left: 50%;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.row-reverse {
+  flex-direction: row-reverse !important;
+}
+
+.mr {
+  margin-right: 50%;
+}
+
+
+// PRINT CREATIONS
+
+// Affiche cinema
+.content-portfolio {
+  padding-bottom: 100px;
+}
+
+.dark-blue-color {
+  color: #12283F;
+}
+
+.content-txt-portfolio {
+  width: 73%;
+  margin: auto;
+  display: block;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.title-portfolio {
+  font-size: 50px;
+  text-align: center;
+}
+
+.txt-portfolio {
+  width: 70%;
+  margin: auto;
+  display: block;
+  text-align: left;
+  max-width: 100%;
+  line-height: 1.7;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.container-horizontal-slide {
+  width: 100%;
+  padding: 1px;
+  min-height: 500px;
+  background: #12283F;
+  margin-top: 50px;
+}

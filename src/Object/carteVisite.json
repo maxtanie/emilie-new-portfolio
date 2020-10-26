@@ -1,0 +1,22 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Carte de visite activité switch-snes",
+                        "informations": "Conception d’image et effet d’opacité carré du theme vidéo ludique RPG gaming jeu de rôle.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/ffviman_final1.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/planche-carte-ffvi-man.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

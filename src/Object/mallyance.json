@@ -1,0 +1,22 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Projet stagiaire Entreprise Mallyance",
+                        "informations": "Une modification de la mise en page et typographie qui donnera une création différente des autres cartes de visite anciennes. Voici la version 2016.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/carte-visite-mallyance-1.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/carte-visite-mallyance-2.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Packaging Mockup Canette 3D",
+                        "informations": "Une composition de maquette en 3D permettant une mise en situation du produit avec l’étiquette en deux versions le orange mélange tropical exotique est l’autre modèle normale du Coca Cola. De cette étiquette composée j’ai associé l’image à la maquette du mockup dans sa globalité.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/etiquette-ff-coca-cola.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/etiquette-coca-cola-final-fantasy-ix-orange-exotic.jpg"
+                            }
+                        ]
+                    }
+                ],
+                "PartTwo": [
+                    {
+                        "informations": "Tout a commencé par un détourage du personnage Djiadane héros de FINAL FANTASY 9.Composition de montage photo de l'étiquette avec illustration derrière en fond et le personnage détouré en 3D premier plan accompagné de la capsule Coca Cola.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/djidan-coca-cola.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/presentation-canettes-final-fantasy-ix.jpg"
+                            }
+                        ]
+                    }
+                ],
+                "PartThree": [
+                    {
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/canette-final-fantasy-ix.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/coca-cola-final-fantasy-ix-orange-exotic.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

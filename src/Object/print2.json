@@ -1,0 +1,115 @@
+[
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Graphiste / Montage d'image / Print",
+        "img": "img/portfolio/print/carte.jpg",
+        "name": "carte-de-visite-graphiste",
+        "alt": "Carte de visite graphiste",
+        "mainTitle": "Carte de visite",
+        "txtInformations": "Graphiste montage d’image<br/> Titres : Activité Switch-snes",
+        "bgColor": "#0E2840"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Design / Print",
+        "img": "img/portfolio/carte-de-visite.jpg",
+        "name": "carte-de-visite-mallyance",
+        "alt": "Carte de visite Mallyance",
+        "mainTitle": "Carte de visite Mallyance",
+        "txtInformations": "Design de mise en page <br/> Titres : modification",
+        "bgColor": "#0E2840"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Graphiste / Montage photo / Print",
+        "img": "img/portfolio/affiche-present.jpg",
+        "name": "affiches-cinema",
+        "alt": "Affiche cinéma",
+        "mainTitle": "Extra life café",
+        "txtInformations": "Graphiste, Print et montage photo, grand titre de film<br/> Affiche Gaming Pour événement Halloween<br/> Affiche de composition cinématographique 30 ans sinon rien ",
+        "bgColor": "#d83d04"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Graphiste / Montage photo / Design colors / Print",
+        "img": "img/portfolio/flyers-my-bootik-2.jpg",
+        "name": "flyers-my-bootik",
+        "alt": "Flyers my bootik",
+        "mainTitle": "My Bootik",
+        "txtInformations": "Graphiste, Print et montage photo, design colors<br/> Flyers de boutique cosplays ",
+        "bgColor": "#bb04be"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Web / Design / Print",
+        "img": "img/portfolio/carte-visite-emilie.jpg",
+        "name": "carte-de-visite-freelance",
+        "alt": "Carte de visite freelance",
+        "mainTitle": "Carte de visite Freelance",
+        "txtInformations": "Graphiste Print et mise en page,<br/> Illustration Titres : Web / Print / Design",
+        "bgColor": "#3fddf6"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Graphiste / Logotype / Print",
+        "img": "img/portfolio/magazine-retro.jpg",
+        "name": "magazine-retro-game",
+        "alt": "Magazine retro game",
+        "mainTitle": "Magazine Rétrogaming",
+        "txtInformations": "Graphiste, Print et mise en page, grand titre de couverture<br/> Logotype et Catalogue de produit<br/> Page de composition jeu rétrogaming",
+        "bgColor": "#4ad4f1"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Typographie / Print",
+        "img": "img/portfolio/print/logotype.jpg",
+        "name": "logotype",
+        "alt": "Logotype",
+        "mainTitle": "Logotype",
+        "txtInformations": "Typographie<br/>Titres : Transformation Typographie",
+        "bgColor": "#4ad4f1"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Graphiste / Montage photo / Design etiquette / Print",
+        "img": "img/portfolio/print/canette-final-fantasy-ix.jpg",
+        "name": "coca-cola",
+        "alt": "Coca Cola",
+        "mainTitle": "Coca Cola",
+        "txtInformations": "Graphiste, Print et montage photo, design Etiquette / Canette<br/> Mockup Maquette Packaging de canette Coca Cola pour le jeu vidéo Final Fantasy IX ",
+        "bgColor": "#862713"
+      }
+    ]
+  }
+ 
+]

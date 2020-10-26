@@ -1,0 +1,145 @@
+[
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "itemsName": "Graphiste / Illustration",
+        "img": "img/portfolio/print/carte.jpg",
+        "name": "carte",
+        "alt": "Carte",
+        "mainTitle": "Carte",
+        "txtInformations": "Typographie<br/>Titres : Transformation Typographie",
+        "bgColor": "#4ad4f1"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "img": "img/portfolio/affiche-present.jpg",
+        "name": "affiches-cinema",
+        "alt": "Affiche cinéma",
+        "mainTitle": "Extra life café",
+        "txtInformations": "Graphiste, Print et montage photo, grand titre de film<br/> Affiche Gaming Pour événement Halloween<br/> Affiche de composition cinématographique 30 ans sinon rien ",
+        "bgColor": "#d83d04"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "img": "img/portfolio/flyers-my-bootik-2.jpg",
+        "name": "flyers-my-bootik",
+        "alt": "Flyers my bootik",
+        "mainTitle": "My Bootik",
+        "txtInformations": "Graphiste, Print et montage photo, design colors<br/> Flyers de boutique cosplays ",
+        "bgColor": "#bb04be"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "img": "img/portfolio/magazine-retro.jpg",
+        "name": "magazine-retro-game",
+        "alt": "Magazine retro game",
+        "mainTitle": "Magazine Rétrogaming",
+        "txtInformations": "Graphiste, Print et mise en page, grand titre de couverture<br/> Logotype et Catalogue de produit<br/> Page de composition jeu rétrogaming",
+        "bgColor": "#4ad4f1"
+      }
+    ],
+    "PartOne": [
+      {
+        "title": "Loisirs et partages",
+        "informations": "Extra life café est un lieu de rencontre conviviale pour les plus passionnés du jeu vidéo est de la culture japonais. Tout en profitant des repas et desserts, des coins lectures manga et jeu société ainsi que la salle de jeu d’arcade avec les consoles rétrogaming de l’époque.Composition l’affiche image de fond et personnage détouré et toute les informations sur l’événement de la soirée indiquer en grand titre du thème de jeu d’horreur Resident Evil. ",
+        "imgSlide": [
+          {
+            "img": "img/portfolio/affiche-game.jpg"
+          }
+        ]
+      }
+    ],
+    "PartTwo": [
+      {
+        "title": "Affiche cinéma",
+        "information": "L’Affiche est composée d’un grand titre et d’une grande photo de bienvenu dans la ville de New York est une deuxième version travailler avec une photo de tournage publicitaire hille school et des ballons de toute sorte de couleur, en bas les acteurs du film et le réalisateur. Le choix de couleur est rose claire sur le grand titre de l’affiche pour faire rappeler les couleurs flashy du style des années rétro vintage.",
+        "imgSlide": [
+          {
+            "img": "img/portfolio/affiche-30ans-1.jpg"
+          },
+          {
+            "img": "img/portfolio/affiche-30ans-2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "img": "img/portfolio/carte-visite-emilie.jpg",
+        "name": "carte-de-visite",
+        "alt": "Carte de visite",
+        "mainTitle": "Carte de visite Freelance",
+        "txtInformations": "Graphiste Print et mise en page,<br/> Illustration Titres : Web / Print / Design",
+        "bgColor": "#3fddf6"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "img": "img/portfolio/sac-ff.pNg",
+        "name": "carte-de-visite-mallyance",
+        "alt": "Carte de visite Mallyance",
+        "mainTitle": "",
+        "txtInformations": "",
+        "bgColor": "#4ad1ed"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "img": "img/portfolio/carte-collect.jpg",
+        "name": "carte-de-visite-mallyance",
+        "alt": "Carte de visite Mallyance",
+        "mainTitle": "",
+        "txtInformations": "",
+        "bgColor": ""
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "img": "img/portfolio/carte-de-visite.jpg",
+        "name": "carte-de-visite-mallyance",
+        "alt": "Carte de visite Mallyance",
+        "mainTitle": "",
+        "txtInformations": "",
+        "bgColor": ""
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "print",
+        "img": "img/portfolio/carte-de-visite-2.jpg",
+        "name": "carte-de-visite-mallyance",
+        "alt": "Carte de visite Mallyance",
+        "mainTitle": "",
+        "txtInformations": "",
+        "bgColor": ""
+      }
+    ]
+  }
+]

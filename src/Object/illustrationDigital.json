@@ -1,0 +1,64 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Illustration numérique fanart lightning Final Fantasy XIII",
+                        "informations": "Conception en trois étapes tout d’abord dessiner en crayons noire, placer les couleurs de bases et en dernière étape les détails de couleur dessin votre personnage.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/illustration/ordi/finalfantasyxiii-v1-s.jpg"
+
+                            },
+                            {
+                                "img": "img/portfolio/illustration/ordi/finalfantasyxiii-v2-s.jpg"
+
+                            },
+                            {
+                                "img": "img/portfolio/illustration/ordi/finalfantasyxiii-v3-s.jpg"
+
+                            }
+                        ]
+                    }
+                ],
+                "PartTwo": [
+                    {
+                        "title": "Illustration numérique Mannequin Karina Lambard",
+                        "informations": "Conception en trois étapes tout d’abord en crayons noire dessiner, placer les couleurs d’éclairage et en dernière étape les détails de couleurs sur votre personnage.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/illustration/ordi/karina-lambard-v1.jpg"
+
+                            },
+                            {
+                                "img": "img/portfolio/illustration/ordi/karina-lambard-v2.jpg"
+
+                            },
+                            {
+                                "img": "img/portfolio/illustration/ordi/karina-lambard-v3.jpg"
+
+                            }
+                        ]
+                    }
+                ],
+                "PartThree": [
+                    {
+                        "title": "Illustration numérique Teressa Claymore",
+                        "informations": "Conception en deux étapes tout d’abord dessiner en crayons noire, placer les ombres et les éclairages de couleur grise foncer et claire en dernière étape les détails couleurs sur votre personnage.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/illustration/ordi/teresa-claymore-v1.jpg"
+
+                            },
+                            {
+                                "img": "img/portfolio/illustration/ordi/teresa-claymore-v2.jpg"
+
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

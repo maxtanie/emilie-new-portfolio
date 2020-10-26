@@ -1,0 +1,201 @@
+{
+  "SocialLinks": {
+    "Lists": [
+      {
+        "img": "img/icones-new/behance.png",
+        "alt": "Behance",
+        "url": "https://www.behance.net/emiliepham95e0/projects"
+      },
+      {
+        "img": "img/icones-new/linkedin-letters.png",
+        "alt": "Linkedin",
+        "url": "https://www.linkedin.com/in/emilie-pham-da-98173532/"
+      },
+      {
+        "img": "img/icones-new/instagram.png",
+        "alt": "Instagram",
+        "url": "https://www.instagram.com/emiliegraphiste/"
+      }
+    ]
+  },
+  "About": {
+    "titleSection": "A propos",
+    "imgProfil": "../../../img/icones-new/moi.png",
+    "altProfil": "Emilie profil",
+    "instagramLink": "",
+    "ExampleSkills": [
+      {
+        "id": "01",
+        "name": "Print et affiche"
+      },
+      {
+        "id": "02",
+        "name": "Les catalogues"
+      },
+      {
+        "id": "03",
+        "name": "Les packagings"
+      },
+      {
+        "id": "04",
+        "name": "Maquette web"
+      },
+      {
+        "id": "05",
+        "name": "Icones graphiques"
+      },
+      {
+        "id": "06",
+        "name": "Illustration"
+      }
+    ]
+  },
+  "Formations": {
+    "titleSection": "Formation Pro",
+    "Lists": [
+      {
+        "years": "2018",
+        "formationsName": "Ecole Multimédia",
+        "descriptions": "Remise à niveau Webdesign."
+      },
+      {
+        "years": "2017",
+        "formationsName": "Doranco",
+        "descriptions": "Titre RNCP Niveau III (bac + 2) Développeur d’applications multimédia."
+      },
+      {
+        "years": "2016",
+        "formationsName": "CFA",
+        "descriptions": "Campus Fonderie de l’Image Passerelle expérimentale Print et Web."
+      },
+      {
+        "years": "2014 / 2015",
+        "formationsName": "INFA",
+        "descriptions": "Titre RNCP Niveau IV (bac) Infographie Metteur en Page."
+      },
+      {
+        "years": "2015",
+        "formationsName": "Cefiac",
+        "descriptions": "Certificat de compétence Formation web / (bureautique)"
+      }
+    ]
+  },
+  "Skills": {
+    "titleSection": "Compétences",
+    "Lists": [
+      {
+        "imgSkills": "img/icones-new/illustrator.png",
+        "alt": "Adobe Illustrator",
+        "level": 4,
+        "levelStr": "Maîtrise"
+      },
+      {
+        "imgSkills": "img/icones-new/photoshop.png",
+        "alt": "Photoshop",
+        "level": 4,
+        "levelStr": "Maîtrise"
+      },
+      {
+        "imgSkills": "img/icones-new/indesign.png",
+        "alt": "InDesign",
+        "level": 4,
+        "levelStr": "Maîtrise"
+      },
+      {
+        "imgSkills": "img/icones-new/after.png",
+        "alt": "Adobe Experience",
+        "level": 1,
+        "levelStr": "Faible"
+      },
+      {
+        "imgSkills": "img/icones-new/premiere.png",
+        "alt": "Premiere Row",
+        "level": 1,
+        "levelStr": "Faible"
+      }
+    ]
+  },
+  "Hobbies": {
+    "titleSection": "Loisirs",
+    "Lists": [
+      {
+        "imgHobbies": "img/new-icones/gaming.png",
+        "alt": "Gaming",
+        "name": "Gaming"
+      },
+      {
+        "imgHobbies": "img/new-icones/illustration-icone.png",
+        "alt": "Illustration",
+        "name": "Illustration"
+      },
+      {
+        "imgHobbies": "img/new-icones/cinema.png",
+        "alt": "Cinéma",
+        "name": "Cinéma"
+      },
+      {
+        "imgHobbies": "img/new-icones/veille-technologique.png",
+        "alt": "Veille technologique",
+        "name": "Veille technologique"
+      }
+    ]
+  },
+  "Hability": {
+    "titleSection": "Habilité",
+    "Lists": [
+      {
+        "imgHability": "img/new-icones/identite-visuelle.png",
+        "alt": "Identité Visuelle",
+        "descriptionLists": [
+          "Identité Visuelle",
+          "Création d'image",
+          "Idée de la marque",
+          "Typographie recherche et graphique"
+        ]
+      },
+      {
+        "imgHability": "img/new-icones/illustration.png",
+        "alt": "Illustration",
+        "descriptionLists": [
+          "Illustration",
+          "Illustration vectoriel",
+          "Digital painting"
+        ]
+      },
+      {
+        "imgHability": "img/new-icones/ux-ui-design.png",
+        "alt": "UI/UX design",
+        "descriptionLists": [
+          "UI/UX design",
+          "Maquette Website",
+          "Création zoning et wireframe",
+          "Icones design/flat design"
+        ]
+      },
+      {
+        "imgHability": "img/new-icones/packaging.png",
+        "alt": "Graphism design",
+        "descriptionLists": [
+          "Graphism design",
+          "Packaging / Design",
+          "Publicité page layout",
+          "Typographie et infographie"
+        ]
+      },
+      {
+        "imgHability": "img/new-icones/design-editorial.png",
+        "alt": "Design éditorial",
+        "descriptionLists": [
+          "Design éditorial",
+          "Magazine, catalogues",
+          "Mise en page Print"
+        ]
+      },
+      {
+        "imgHability": "img/new-icones/flat-design.png",
+        "alt": "Flat Animation",
+        "descriptionLists": ["Flat Animation", "Logo animation/icone"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+#footer {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background: #0E2840 url("../../images/home/footer/logo\ nav\ barre.png") no-repeat;
+    background-size: 120px;
+    background-position: 80% 15%;
+
+    .content-footer {
+        width: 800px;
+        max-width: 90%;
+        margin: auto;
+        display: block;
+
+        .title-footer {
+            font-size: 40px;
+            color: #fff;
+        }
+
+        .grid-footer-infos {
+            display: grid;
+            // grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            margin-top: 80px;
+
+            .infos-footer {
+                padding: 10px;
+                // min-height: 300px;
+                color: #ffd600;
+                line-height: 1.9;
+                margin-top: -30px;
+
+                .link-footer {
+                    text-decoration: none;
+                    color: #ffd600;
+                    display: block;
+                    line-height: 2;
+                    transition: .3s ease-in-out;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+
+                .name-footer-infos {
+                    font-size: 25px;
+                    color: #fff;
+                    margin-bottom: 15px;
+                }
+
+                .content-icon {
+                    width: 35px;
+
+
+                    .icon-footer {
+                        width: 100%;
+                        display: block;
+                        margin-bottom: 20px;
+                        z-index: 98;
+
+                    }
+
+                }
+
+                .icon-instagram:hover .icon-footer,
+                .icon-linkedin:hover .icon-footer,
+                .icon-behance:hover .icon-footer {
+                    opacity: 0;
+                }
+
+                .icon-instagram:hover {
+                    background-image: url("../../images/home/footer/icone-instagram.png");
+                    width: 35px;
+                    background-repeat: repeat;
+                    background-size: cover;
+                }
+
+
+                .icon-linkedin:hover {
+                    background-image: url("../../images/home/footer/icone-linkeding.png");
+                    width: 35px;
+                    background-repeat: repeat;
+                    background-size: cover;
+                }
+
+                .icon-behance:hover {
+                    background-image: url("../../images/home/footer/icone-behance.png");
+                    width: 35px;
+                    background-repeat: repeat;
+                    background-size: cover;
+                }
+
+            }
+        }
+
+
+    }
+
+    .underline {
+        text-decoration: underline !important;
+    }
+
+    .mentions-legales {
+        text-align: center;
+        color: #fff;
+        font-size: 0.9em;
+        margin-top: 75px;
+    }
+}

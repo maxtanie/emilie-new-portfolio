@@ -1,0 +1,24 @@
+.container-creations-list {
+  position: relative;
+  width: 1330px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 100px;
+
+  .id {
+    font-size: 25px;
+  }
+}
+
+.grid-creations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.block {
+  border: 1px solid;
+}
+
+.img-crea {
+}

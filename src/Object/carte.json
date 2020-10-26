@@ -1,0 +1,22 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Carte de visite",
+                        "informations": "Présentation de l’activité prestation Service design : Graphiste print/web avec une identité visuelle à style graphique de flat design de petite fille souhaitant réaliser son rêve de designer graphic et artiste d’image.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/carte-de-visite-p-1.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/carte-de-visite-p-2.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

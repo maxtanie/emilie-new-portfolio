@@ -1,0 +1,129 @@
+#profil {
+    padding: 120px 0;
+    background: #4badee;
+
+
+    .content-about {
+        display: grid;
+        grid-template-columns: 750px 580px;
+        // grid-gap: 100px;
+
+        .bloc-txt-about {
+            color: #fff;
+
+            .title-profil {
+                font-size: 40px !important;
+                font-weight: bold;
+
+            }
+
+            .txt-profil {
+                margin-top: 25px;
+                margin-bottom: 25px;
+                font-size: 24px !important;
+                line-height: 1.8;
+
+
+            }
+        }
+
+        .img-profil {
+            width: 580px;
+        }
+    }
+
+
+}
+
+.container-main-2 {
+    width: 1550px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+#other-passion {
+    background: #4badee;
+    padding: 120px 0;
+
+    .content-other-passion {
+        display: grid;
+        grid-template-columns: 650px 650px;
+        grid-gap: 50px;
+
+        .bloc-content {
+            // color: #4c0bd9;
+
+            .txt-other-passion {
+                font-size: 35px;
+                color: #fff;
+            }
+
+            .grid-img {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 20px;
+
+                .img {
+                    position: relative;
+                    cursor: pointer;
+                    transition: .3s ease-in;
+                    background: #fff;
+
+                    img {
+                        width: 100%;
+                        display: block;
+
+                    }
+
+                    .layer {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        width: 100%;
+                        background: rgba(255,214,0,0.84);
+                        transition: .3s ease-in-out;
+                        visibility: hidden;
+                        opacity: 0;
+
+                        .content-layer {
+                            width: 100%;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                            color: #fff;
+                            text-align: center;
+
+                            .title-content {
+                                font-size: 1.8em;
+                                padding: 5px 35px;
+                            }
+                        }
+                        
+                    }
+                    &:hover .layer {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+
+                    .img-other-passion {
+                        width: 170px;
+                        height: 330px;
+                        margin-left: 75px;
+                        margin-top: 2px;
+                        display: block;
+
+                    }
+
+                    // &:hover {
+                    //     border: 16px solid #ffd600;
+                    // }
+                }
+            }
+        }
+    }
+
+}

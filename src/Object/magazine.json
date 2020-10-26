@@ -1,0 +1,47 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Projet Magazine Deuxième version",
+                        "informations": "GREATWOOD entreprise indépendant associe à plusieurs activité pour ses prestations services en design graphic  print,affiche, identité visuelle logotype. Charger de prendre en main le projet d’une boutique Rétrogaming sur Paris afin de fournir une communication print.J’établit se projet de mise en page sur indesign et pendant un stage de 3 mois ainsi je conçois un logotype nommé oldeez.Le stage est conventionnée par L’école de la deuxieme chance du 95. ",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/print/ordi/magazine-retrogaming-v-2.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/print/ordi/greatwood.png"
+                            }
+                        ]
+                    }
+                ],
+                "PartTwo": [
+                    {
+                        "title": "Création de trois versions logotype",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/print/ordi/magazine-retrogaming-v-1.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/print/ordi/logo-1.png"
+                            },
+                            {
+                                "img": "img/portfolio/print/ordi/logo-2.png"
+                            },
+                            {
+                                "img": "img/portfolio/print/ordi/logo-3.png"
+                            },
+                            {
+                                "img": "img/portfolio/print/ordi/colors-oldeez.png"
+                            },
+                            {
+                                "img": "img/portfolio/print/ordi/catalogue_gabarie-final2.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

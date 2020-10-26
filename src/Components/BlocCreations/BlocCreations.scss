@@ -1,0 +1,45 @@
+.crea-bloc {
+    .flex-crea-bloc {
+        display: flex;
+
+        .blocCreaBlueSky {
+            width: 35%;
+            max-width: 100%;
+            padding: 25px;
+            background: #4badee;
+        }
+
+        .blocCreaBlueSkyLight {
+            width: 70%;
+            max-width: 100%;
+            padding: 120px 20px;
+            background: #4bd5f2;
+
+            .icon-crea {
+                width: 90px;
+                margin-right: 30px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1068px) {
+     .flex-crea-bloc {
+         display: block;
+
+         .blocCreaBlueSky,
+         .blocCreaBlueSkyLight {
+             width: 100%;
+             padding: 20px !important;
+         }
+
+         .icon-crea {
+             width: 50px;
+         }
+     }
+ }
+}
+
+#webdesign .blocCreaBlueSky .sephora-size,
+#print .my-bootik-size {
+    margin-top: 0 !important;
+}

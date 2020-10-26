@@ -1,0 +1,30 @@
+[
+  {
+    "DefaultsCreations": [
+      {
+        "item": "web",
+        "itemsName": "Graphiste / Illustration",
+        "img": "img/portfolio/presentation-titi-burger-2020.jpg",
+        "name": "titi-burger",
+        "alt": "Titi burger",
+        "mainTitle": "Site web de restauration",
+        "txtInformations": "Graphiste Print et mise en page, prototypage <br/> Titres : Titi Burger  ",
+        "bgColor": "#0E2840"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "web",
+        "itemsName": "Graphiste / Illustration",
+        "img": "img/portfolio/web/newsletter-shephora.jpg",
+        "name": "newsletter",
+        "alt": "Newsletter",
+        "mainTitle": "Newsleter",
+        "txtInformations": "Graphiste, Print et montage photo, design colors<br/> Flyers de boutique cosplays ",
+        "bgColor": "#bb04be"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Newsletter Shéphora ",
+                        "informations": "Une composition de la mise en page et typographie et un bouton en un clic avec une photo de beauté qui présente une bonne affaire à consulter et des offres de promos. Projet fictif graphisme ",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/fonce-sephora.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/porcentage-newletter.jpg"
+                            }
+                        ]
+                    }
+                ],
+                "PartTwo": [
+                    {
+                        "title": "Newsletter de produit et de décoration",
+                        "informations": "Une composition d’image et l’objet de décoration pot de fleur mise en avant sur un prix seulement en un clic vous saurez directement transferrer sur la page produit du site Florajet. Projet fictif graphisme ",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/fond-newletter.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/newsletter-1-2.jpg"
+                            }
+                        ]
+                    }
+                ],
+                "PartThree": [
+                    {
+                        "title": "Maquette Starbucks",
+                        "informations": "La composition de la Maquette à été fait sur photoshop et les images les unes en dessous des autres afin de créer une armonie vintage entre le rose bonbon, le beige claire et foncer, le gris foncer. Exemple de conception UI design, projet fictif graphisme.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/maquette-stacbuck-n.jpg"
+                            }
+                        
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

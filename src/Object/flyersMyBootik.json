@@ -1,0 +1,22 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Flyers de boutique cosplays ",
+                        "informations": "Le Flyers est composée d’un design coloré entre une couleur froid et chaud avec des formes géométriques et esthétique à vu d’œil un ensemble de photo model indiquant les couleurs réunifier dans l’axe centrer. Le grand titre My Bootik afficher en grand avec les coordonnées. Au verso une composition d’image des produits exposer de tout type et coordonnée précis sur la carte.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/maquette-flyer-my-bootik-3.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/maquette-flyer-my-bootik-2.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Projet fictif graphisme Ecole Multimédia",
+                        "informations": "Après avoir finalisé le logo la marque de chaussureChabadou. Un habillage de mockup chaussure à carreau noire et blanc de style converse. En deuxieme parties les chaussures accompagner avec la boite à chaussure et le slogan Smiley.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/packaging/ordi/shoes-perspective-chabadou.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/packaging/ordi/shoes-produits.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

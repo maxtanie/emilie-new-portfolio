@@ -1,0 +1,36 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Loisirs et partages",
+                        "informations": "Extra life café est un lieu de rencontre conviviale pour les plus passionnés du jeu vidéo est de la culture japonais. Tout en profitant des repas et desserts, des coins lectures manga et jeu société ainsi que la salle de jeu d’arcade avec les consoles rétrogaming de l’époque.Composition l’affiche image de fond et personnage détouré et toute les informations sur l’événement de la soirée indiquer en grand titre du thème de jeu d’horreur Resident Evil. ",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/affiche-game.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/extrat.png"
+                            }
+                        ]
+                    }
+                ],
+                "PartTwo": [
+                    {
+                        "title": "Affiche cinéma",
+                        "informations": "L’Affiche est composée d’un grand titre et d’une grande photo de bienvenu dans la ville de New York est une deuxième version travailler avec une photo de tournage publicitaire hille school et des ballons de toute sorte de couleur, en bas les acteurs du film et le réalisateur. Le choix de couleur est rose claire sur le grand titre de l’affiche pour faire rappeler les couleurs flashy du style des années rétro vintage.",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/affiche-30ans-1.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/affiche-30ans-2.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

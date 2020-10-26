@@ -1,0 +1,36 @@
+#identite-visuelle {
+    margin-top: -5px;
+
+    .content-img {
+        position: relative;
+
+        .oldeez-size {
+            width: 320px;
+            margin-top: 15px;
+        }
+
+        .chabadou-box-size {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 1068px) {
+
+       .oldeez-size,
+       .chabadou-computer-size,
+       .print-my-bootik-size,
+       .chabadou-logo,
+       .my-bootik-size,
+       .retro-size,
+       .sephora-size,
+       .affiche-cinema-size {
+           position: relative;
+           width: 100%;
+           margin-top: 10px !important;
+           margin-left: 0;
+       }
+   }
+    }
+
+
+
+}

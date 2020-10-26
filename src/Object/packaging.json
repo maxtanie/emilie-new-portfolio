@@ -1,0 +1,45 @@
+[
+  {
+    "DefaultsCreations": [
+      {
+        "item": "packaging",
+        "itemsName": "Paper / Packaging",
+        "img": "img/portfolio/packaging/paper-toy-mog.jpg",
+        "name": "paper-toy",
+        "alt": "Paper Toy",
+        "mainTitle": "Paper Toy",
+        "txtInformations": "Packaging<br/> Titres : Montage de papier ",
+        "bgColor": "#fe3837"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "packaging",
+        "itemsName": "Mockup / Packaging",
+        "img": "img/portfolio/packaging/etiquette-ff-coca-cola2.jpg",
+        "name": "coca-cola-packaging",
+        "alt": "Coca Cola Packaging",
+        "mainTitle": "Coca Cola Packaging",
+        "txtInformations": "Graphiste, Print et montage photo, design Etiquette / Canette<br/> Mockup Maquette Packaging de canette Coca Cola pour<br/> le jeu vidéo Final Fantasy IX ",
+        "bgColor": "#0E2840"
+      }
+    ]
+  },
+  {
+    "DefaultsCreations": [
+      {
+        "item": "packaging",
+        "itemsName": "Mockup / Graphiste / Packaging",
+        "img": "img/portfolio/packaging/shoes-produits2.jpg",
+        "name": "mockup-shoes",
+        "alt": "Mockup shoes",
+        "mainTitle": "Mockup shoes",
+        "txtInformations": "Graphiste packaging <br/>Titres : Marque Chabadou",
+        "bgColor": "#ffd600"
+      }
+    ]
+  }
+ 
+]

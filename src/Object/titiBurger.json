@@ -1,0 +1,22 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Projet site Titi burger",
+                        "informations": "Activité restauration de chaîne maison tout est fait avec beaucoup d’application. Charger de la création UX /UI Design : graphique composer d’icônes et de deux type de typographie Lobst bold pour les Titre et text/ Amatic SC / outils barre menu option du Projet fictif graphisme Ecole Doranco",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/ui-kit1-burger.png"
+                            },
+                            {
+                                "img": "img/portfolio/ui-kit2-burger.png"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

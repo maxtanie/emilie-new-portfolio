@@ -1,0 +1,25 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "title": "Projet fictif graphisme Ecole Multimédia",
+                        "informations": "Une modification de la typographie qui donnera une création originale accompagner d’un motifs à carreau partager en deux Axe. Voici le logotype Chabadou destiné à etre habiller par une chaussure de style converse. ",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/axe-1-typographie.png"
+                            },
+                            {
+                                "img": "img/portfolio/axe-2-typo-modif.png"
+                            },
+                            {
+                                "img": "img/portfolio/axe-3-motif-01.png"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

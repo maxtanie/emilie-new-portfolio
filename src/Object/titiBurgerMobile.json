@@ -1,0 +1,31 @@
+[
+    {
+        "ListSlide": [
+            {
+                "PartOne": [
+                    {
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/web/ordi/Titi-burger-2020-charte.jpg"
+                            },
+                            {
+                                "img": "img/portfolio/web/ordi/ui-kit.jpg"
+                            }
+                        ]
+                    }
+                ],
+                "PartTwo": [
+                    {
+                        "title": "Projet Mobile Titi Burger",
+                        "informations": "Application Mobile commander vos ingrédients et votre menu burger qui vont avec la boissons du choix. Projet fictif graphisme Ecole Doranco",
+                        "imgSlide": [
+                            {
+                                "img": "img/portfolio/web/ordi/appli-mob-titi-burger2.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
