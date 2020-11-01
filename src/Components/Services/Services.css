@@ -64,6 +64,9 @@
   justify-content: space-between;
   align-items: center;
   font-size: 25px; }
+  @media screen and (max-width: 1068px) {
+    .accordion-title {
+      font-size: 18px; } }
   .accordion-title::after {
     content: "";
     width: 0;
@@ -80,7 +83,11 @@
 
 .accordion-content {
   padding: 1em 1.5em;
-  font-size: 25px; }
+  font-size: 25px;
+  line-height: 1.7; }
+  @media screen and (max-width: 1068px) {
+    .accordion-content {
+      font-size: 18px; } }
 
 .text-style-design {
   width: 600px; }

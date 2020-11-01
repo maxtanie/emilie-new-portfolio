@@ -24,7 +24,7 @@ export default class Nav extends Component {
                 className="anchors-items noto-regular"
                 href="/identite-de-marque"
               >
-                Services <i class="fas fa-caret-down"></i>
+                Compétences <i class="fas fa-caret-down"></i>
               </a>
               <ul className="sub-menu">
                 <li className="list-items">
@@ -60,12 +60,12 @@ export default class Nav extends Component {
             </li>
             <li className="list-items">
               <a className="anchors-items noto-regular" href="/a-propos">
-                A propos
+                Qui suis-je ?
               </a>
             </li>
             <li className="list-items">
               <a className="anchors-items noto-regular" href="/contact">
-                Contact
+                Me Contacter
               </a>
             </li>
           </ul>

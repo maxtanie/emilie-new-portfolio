@@ -24,16 +24,10 @@ export default class Profil extends Component {
                 />
               </div>
               <div className="bloc-about bloc-txt-about">
-                <h2 className="title-profil">Profil</h2>
+                <h2 className="title-profil">Mon parcours</h2>
                 <p className="txt-profil">
-                  Diplômée de plusieurs formations numérique ayant du Print au
-                  Web design et Chef de Projet Web. Avec plus de 7 stages
-                  d’entreprise différents en tant que graphiste print et web,
-                  j’ai développé des connaissances et compétences théoriques à
-                  pratiques pendant les stages de formation. Ouverte à
-                  collaborer avec des agences de communication et publicitère
-                  ainsi que grande, moyen, petite entreprise à l’association,
-                  j’élargie les secteurs d’activités clientèles.
+                J’ai suivi plusieurs formations dans l’ensemble des métiers liés au design print et numérique. Ayant ainsi cumulé les expériences en entreprises à travers mes différents stages (exemples ? ), je me suis formée auprès de professionnels très compétents. Ces expériences me permettent aujourd’hui d’avoir des connaissances théoriques et une vision terrain de gestion de projet globale.
+                Je collabore aujourd’hui avec des agences de communication et des annonceurs (entreprises et associations de toutes tailles).
                 </p>
               </div>
             </div>
@@ -46,26 +40,19 @@ export default class Profil extends Component {
           paddingBottom="120px"
           sizeTitle="40px"
           sizeTxt="24px"
-          title="Atouts"
-          txt="Dynamique et créative, j’arrive à prendre le projet en main du
-          début jusqu’à la fin, en partant de l’étape de création à
-          l’impression numérique aux produits finis, disons de moi la
-          seule collaboratrice du projet. J'accorde une grande
-          importance à la création graphique. Ordonnée, organisée, je
-          suis là personne qui résout les problématiques et contraintes
-          des clients, avec les recherches adaptées à tout profil de
-          projet créatif."
+          title="Mes atouts"
+          txt="Dynamique et créative, je gère vos projets de la phase stratégique et de conception à livraison du produit fini. Je vous accompagne au quotidien et cherche à vous apporter un maximum de valeur afin que vos outils ne soient pas uniquement des supports de promotion mais aussi d’adhésion et de fidélisation.
+          J’accorde une grande place à la créativité à travers mon style graphique original.     
+          En tant que chef de projet, j’attache une grande importance aux qualités indispensables liées à la gestion de projet : rigueur et organisation. Toujours à la recherche de la meilleure solution, je m’adapte à vos éventuelles contraintes."
         />
 
         <section id="other-passion">
           <div className="container-main">
             <div className="content-other-passion">
               <div className="bloc-content">
+                <h2 className="title">Le plus...</h2>
                 <p className="txt-other-passion">
-                  En dehors de mon métier de graphiste, j’ai pour passions
-                  l’illustration, la création de personnage et l’art
-                  traditionnelle, peinture, portrait, photographie de mode et
-                  loisirs sur instagram.
+                En dehors de mon métier de graphiste, je suis passionnée par l’illustration, notamment la création de personnages fictifs inspirés de l’univers HeroicFantasy, mais aussi de l’art traditionnel (peinture, dessin, photo de mode).Retrouvez mon univers sur Instagram, où je partage mes créations.
                 </p>
                 <Button txt="En savoir plus" colorTxt="#fff" padding="18px 20px" width="250px" bgColor="#ffd600" margin="60px" txtSize="1.4em" fWeight="bold" lSpacing="2px"/>
               </div>

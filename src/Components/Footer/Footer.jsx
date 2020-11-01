@@ -13,7 +13,7 @@ export default class Footer extends Component {
       <footer id="footer">
         <div className="content-footer">
           <h2 className="title-footer noto-light">
-            Vous souhaitez me parler de votre projet <br/> et peut-être faire appel à mes services de<br/> graphiste / illustratrice ?
+            Vous souhaitez me parler de votre projet <br/> et peut-être faire appel à mes services de<br/> graphiste print et web / illustratrice ?
           </h2>
           <Link to="/contact" className="td-none link">
             <Button
@@ -31,6 +31,22 @@ export default class Footer extends Component {
           </Link>
 
           <div className="grid-footer-infos">
+          <div className="infos-footer">
+              <h5 className="name-footer-infos">Portfolio</h5>
+              <Link to="/indentite-de-marque" className="link-footer">
+                Print
+              </Link>
+              <Link to="/webdesign" className="link-footer">
+                Web
+              </Link>
+              <Link to="/communication" className="link-footer">
+                Packaging
+              </Link>
+              <Link to="/illustrations" className="link-footer">
+                Illustrations
+              </Link>
+            </div>
+
             <div className="infos-footer">
               <h5 className="name-footer-infos">Services</h5>
               <Link to="/indentite-de-marque" className="link-footer">
@@ -78,20 +94,11 @@ export default class Footer extends Component {
               </div>
             </div>
 
-            <div className="infos-footer">
-              <h5 className="name-footer-infos">Contact</h5>
-              <a
-                href="mailto:emiliephamda@gmail.com"
-                className="link-footer underline"
-              >
-                emiliephamda@gmail.com
-              </a>
-              <p>Tél. +33 06 60 91 30 65</p>
-            </div>
+            
           </div>
 
           <p className="mentions-legales noto-light">
-            Mentions légales | Copyright &copy; Emilie PHAM DA | 2020
+          Politique de confidentialité Mentions légales | Copyright © Emilie PHAM DA | 2020 <Link>Mentions légales</Link>
           </p>
         </div>
       </footer>

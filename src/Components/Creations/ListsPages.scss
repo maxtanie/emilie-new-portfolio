@@ -10,6 +10,10 @@
   margin: auto;
   padding: 20px;
   margin-top: 80px;
+
+  @media screen and (max-width: 1068px) {
+    margin-top: 0px;
+  }
 }
 
 .img-crea {
@@ -138,7 +142,7 @@
 }
 
 .img {
-  width: 650px;
+  
   max-width: 100%;
 }
 

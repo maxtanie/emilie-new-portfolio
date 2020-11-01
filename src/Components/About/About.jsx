@@ -33,8 +33,8 @@ export default class About extends Component {
               <h2 className="title-about" style={sTitle}>
                 {title}
               </h2>
-              <p className="txt-about" style={sText}>
-                {txt}
+              <p dangerouslySetInnerHTML={{ __html: txt }} className="txt-about" style={sText}>
+                
               </p>
               {this.props.children}
             </div>

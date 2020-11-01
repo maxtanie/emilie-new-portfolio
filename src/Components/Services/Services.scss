@@ -79,6 +79,10 @@
     align-items: center;
     font-size: 25px;
 
+    @media screen and (max-width: 1068px) {
+        font-size: 18px;
+    }
+
 
     &::after {
         content: "";
@@ -106,6 +110,10 @@
 .accordion-content {
     padding: 1em 1.5em;
     font-size: 25px;
+    line-height: 1.7;
+    @media screen and (max-width: 1068px) {
+        font-size: 18px;
+    }
 }
 
 .text-style-design {

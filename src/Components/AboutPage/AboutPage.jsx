@@ -15,9 +15,7 @@ export default class AboutPage extends Component {
           paddingBottom="50px"
           img={imgEmilieAbout}
           title="A propos"
-          txt="Graphiste et futur freelance située à Paris, je suis passionnée
-          par différentes thématiques graphiques qui rendent mes créations
-          originales."
+          txt="Graphiste et illustratrice indépendante, je conçois vos supports print et web pour sublimer votre communication et valoriser vos messages. Ma passion pour des univers originaux tels que l’HeroicFantasy rendent mes créations uniques et originales."
         />
         <Profil />
         <Footer></Footer>

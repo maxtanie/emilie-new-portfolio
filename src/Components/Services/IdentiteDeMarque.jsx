@@ -20,13 +20,9 @@ function IdentiteDeMarque() {
                 paddingBottom="120px"
                 sizeTitle="55px"
                 sizeTxt="30px"
-                title="Identité la marque :"
-                txt="A la conception d’un logotype et la mise en
-                oeuvre d’une charte graphique complète, je vous
-                suis dans l’organisation entière de votre projet,
-                avec une solution confirmer montrer étape par
-                étape les processus créatifs qui sont bien
-                réglementé dans le domaine professionnelle. "/>
+                title="Votre identité la marque :"
+                txt="De votre logo à l’ensemble de votre charte graphique, je crée l’identité visuelle qui vous rend remarquable et vous permet de vous différencier.
+                Etape par étape, j’utilise un processus créatif qui vous inclut dans la réalisation de ce travail qui traduira l’ADN et la personnalité de votre projet ou votre marque."/>
 
                 <About 
                 img={organisationAdapte}
@@ -34,12 +30,8 @@ function IdentiteDeMarque() {
                 paddingBottom="60px"
                 sizeTitle="55px"
                 sizeTxt="30px"
-                title="L’organisation adaptée :"
-                txt="Les solutions adapter à la bonne direction artistique se
-                définit par vos besoins rechercher sur l’identification de
-                votre projet. Cette étape première se traduit par un
-                questionnaire constructive, question/ réponse qui
-                permettra de mieu connaître un brief créatif bien précis."/>
+                title="Une approche personnalisée :"
+                txt="Afin de répondre pleinement à votre objectif, je dois comprendre VOS enjeux et VOS besoins. Je prends ainsi l’engagement de vous aider à résoudre les problématiques qui vous sont propres. Pour cela je démarre notre collaboration avec un entretien et un questionnaire dont les réponses me permettront de réaliser un brief créatif. Celui-ci servira de base à notre collaboration."/>
     
                 <About 
                 img={recherchesAvances}
@@ -47,14 +39,8 @@ function IdentiteDeMarque() {
                 paddingBottom="60px"
                 sizeTitle="55px"
                 sizeTxt="30px"
-                title="La recherche avancée :"
-                txt="Une fois les idées confirmer et identifier, l’étape de
-                conception peut débuter.
-                Un Brainstorming est un concepts audacieux ayant pour
-                but d’avoir une liste d’idée tel que :
-                La recherche graphique, la palette des couleurs, la
-                typographie. L’idée est de connaître l'image créative qui
-                ressortiront les valeurs de la marque."/>
+                title="Une recherche approfondie"
+                txt="Une fois le brief défini, nous démarrons la création graphique. Une réunion de brainstorming permet de définir les pistes créatives (couleurs, typographie…). L’idée est de faire ressortir un univers graphique qui traduira les valeurs de votre marque."/>
 
                 <About 
                 img={phaseFinale}
@@ -62,13 +48,8 @@ function IdentiteDeMarque() {
                 paddingBottom="60px"
                 sizeTitle="55px"
                 sizeTxt="30px"
-                title="Phase finale :"
-                txt="Suite aux choix finalisé et travailler l’ensemble des
-                directions créatifs sur l’une des propositions bien définis,
-                tous les concepts graphique finalisés vous seront
-                donnée. Une notice d’utilisation de votre charte
-                graphique et identité visuelle sera à votre possessions
-                afin d'affirmer une cohésion sur tous vos supports."/>
+                title="La phase finale :"
+                txt="Après validation des tendances graphiques, je formalise ces choix dans le cadre d’une charte graphique complète et détaillée. Ce document vous sera remis en fin de prestation afin de pouvoir les décliner sur l’ensemble de vos supports print et web (site internet, flyer, plaquette…)."/>
          </div>
          <QuestionsCourantes servicesArray={arrayIdentite} />
         </section>
