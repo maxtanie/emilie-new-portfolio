@@ -1,26 +1,21 @@
 #profil {
   padding: 120px 0;
   background: #4badee; }
-
-#profil .content-about {
-  display: grid;
-  grid-template-columns: 750px 580px; }
-
-#profil .content-about .bloc-txt-about {
-  color: #fff; }
-
-#profil .content-about .bloc-txt-about .title-profil {
-  font-size: 40px !important;
-  font-weight: bold; }
-
-#profil .content-about .bloc-txt-about .txt-profil {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 24px !important;
-  line-height: 1.8; }
-
-#profil .content-about .img-profil {
-  width: 580px; }
+  #profil .content-about {
+    display: grid;
+    grid-template-columns: 750px 580px; }
+    #profil .content-about .bloc-txt-about {
+      color: #fff; }
+      #profil .content-about .bloc-txt-about .title-profil {
+        font-size: 40px !important;
+        font-weight: bold; }
+      #profil .content-about .bloc-txt-about .txt-profil {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 24px !important;
+        line-height: 1.8; }
+    #profil .content-about .img-profil {
+      width: 580px; }
 
 .container-main-2 {
   width: 1550px;
@@ -30,63 +25,53 @@
 #other-passion {
   background: #4badee;
   padding: 120px 0; }
-
-#other-passion .content-other-passion {
-  display: grid;
-  grid-template-columns: 650px 650px;
-  grid-gap: 50px; }
-
-#other-passion .content-other-passion .bloc-content .txt-other-passion {
-  font-size: 35px;
-  color: #fff; }
-
-#other-passion .content-other-passion .bloc-content .grid-img {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px; }
-
-#other-passion .content-other-passion .bloc-content .grid-img .img {
-  position: relative;
-  cursor: pointer;
-  transition: .3s ease-in;
-  background: #fff; }
-
-#other-passion .content-other-passion .bloc-content .grid-img .img img {
-  width: 100%;
-  display: block; }
-
-#other-passion .content-other-passion .bloc-content .grid-img .img .layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  background: rgba(255, 214, 0, 0.84);
-  transition: .3s ease-in-out;
-  visibility: hidden;
-  opacity: 0; }
-
-#other-passion .content-other-passion .bloc-content .grid-img .img .layer .content-layer {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-align: center; }
-
-#other-passion .content-other-passion .bloc-content .grid-img .img .layer .content-layer .title-content {
-  font-size: 1.8em;
-  padding: 5px 35px; }
-
-#other-passion .content-other-passion .bloc-content .grid-img .img:hover .layer {
-  visibility: visible;
-  opacity: 1; }
-
-#other-passion .content-other-passion .bloc-content .grid-img .img .img-other-passion {
-  width: 170px;
-  height: 330px;
-  margin-left: 75px;
-  margin-top: 2px;
-  display: block; }
+  #other-passion .content-other-passion {
+    display: grid;
+    grid-template-columns: 650px 650px;
+    grid-gap: 50px; }
+    #other-passion .content-other-passion .bloc-content .txt-other-passion {
+      font-size: 35px;
+      color: #fff; }
+    #other-passion .content-other-passion .bloc-content .grid-img {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px; }
+      #other-passion .content-other-passion .bloc-content .grid-img .img {
+        position: relative;
+        cursor: pointer;
+        transition: .3s ease-in;
+        background: #fff; }
+        #other-passion .content-other-passion .bloc-content .grid-img .img img {
+          width: 100%;
+          display: block; }
+        #other-passion .content-other-passion .bloc-content .grid-img .img .layer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          background: rgba(255, 214, 0, 0.84);
+          transition: .3s ease-in-out;
+          visibility: hidden;
+          opacity: 0; }
+          #other-passion .content-other-passion .bloc-content .grid-img .img .layer .content-layer {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center; }
+            #other-passion .content-other-passion .bloc-content .grid-img .img .layer .content-layer .title-content {
+              font-size: 1.8em;
+              padding: 5px 35px; }
+        #other-passion .content-other-passion .bloc-content .grid-img .img:hover .layer {
+          visibility: visible;
+          opacity: 1; }
+        #other-passion .content-other-passion .bloc-content .grid-img .img .img-other-passion {
+          width: 170px;
+          height: 330px;
+          margin-left: 75px;
+          margin-top: 2px;
+          display: block; }

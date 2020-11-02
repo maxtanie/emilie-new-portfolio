@@ -194,6 +194,10 @@ body {
 
 .title-creations {
   font-size: 38px;
+
+  @media screen and (max-width: 1068px) {
+    font-size: 30px;
+  }
 }
 
 
@@ -243,6 +247,7 @@ body {
 
 .title-creations {
   width: 450px;
+  max-width: 100%;
   margin: auto;
   display: block;
 }

@@ -1,9 +1,14 @@
 #print {
   position: relative; }
-  #print .my-bootik-size {
-    width: 88%;
-    margin-top: -60px; }
-  #print .retro-size,
-  #print .affiche-cinema-size {
-    width: 88%;
-    margin-top: 10px; }
+
+#print .my-bootik-size {
+  width: 88%;
+  margin-top: -60px; }
+
+#print .retro-size,
+#print .affiche-cinema-size {
+  width: 88%;
+  margin-top: 10px; }
+
+.content-img img {
+  width: 100% !important; }

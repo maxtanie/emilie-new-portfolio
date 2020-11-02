@@ -3,9 +3,12 @@
     top: 0;
     z-index: 99;
     width: 100%;
+    max-width: 100%;
     padding: 0px 65px;
     min-height: 100px;
     background-color: #FFE465;
+
+    
 
     .logo {
         // margin-top: 15px;
@@ -80,6 +83,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 1068px) {
+        display: block;
+    }
 }
 
 .flex-list {

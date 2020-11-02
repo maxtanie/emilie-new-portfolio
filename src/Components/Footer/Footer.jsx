@@ -13,7 +13,7 @@ export default class Footer extends Component {
       <footer id="footer">
         <div className="content-footer">
           <h2 className="title-footer noto-light">
-            Vous souhaitez me parler de votre projet <br/> et peut-être faire appel à mes services de<br/> graphiste print et web / illustratrice ?
+            Vous souhaitez me parler de votre projet et peut-être faire appel à mes services de graphiste print et web / illustratrice ?
           </h2>
           <Link to="/contact" className="td-none link">
             <Button

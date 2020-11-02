@@ -118,8 +118,16 @@
 
 .text-style-design {
     width: 600px;
+    max-width: 90%;
+    margin: auto;
+    display: block;
 }
 
 .img-illustration {
     width: 250px;
+    @media screen and (max-width: 1068px) {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
 }

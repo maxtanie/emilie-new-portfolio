@@ -13,8 +13,14 @@
         display: block;
 
         .title-footer {
+            width: 700px;
+            max-width: 100%;
             font-size: 40px;
             color: #fff;
+
+            @media screen and (max-width: 1068px) {
+                font-size: 25px;
+            }
         }
 
         .grid-footer-infos {
