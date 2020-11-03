@@ -96,10 +96,9 @@ body {
 
 .section-padding {
   padding: 80px 30px; }
-
-@media screen and (max-width: 1068px) {
-  .section-padding {
-    padding: 20px !important; } }
+  @media screen and (max-width: 1068px) {
+    .section-padding {
+      padding: 20px !important; } }
 
 .center {
   text-align: center; }
@@ -107,17 +106,15 @@ body {
 .title-section {
   text-align: center;
   font-size: 3em; }
-
-@media screen and (max-width: 1068px) {
-  .title-section {
-    font-size: 35px; } }
+  @media screen and (max-width: 1068px) {
+    .title-section {
+      font-size: 35px; } }
 
 .title-creations {
   font-size: 38px; }
-
-@media screen and (max-width: 1068px) {
-  .title-creations {
-    font-size: 30px; } }
+  @media screen and (max-width: 1068px) {
+    .title-creations {
+      font-size: 30px; } }
 
 .content-informations {
   width: 50%;
@@ -125,23 +122,20 @@ body {
   margin: auto;
   display: block;
   margin-top: 90px; }
-
-.content-informations .flex-creations {
-  display: flex;
-  align-items: center; }
-
-.content-informations .txt-creations {
-  margin-top: 25px;
-  color: #fff;
-  font-size: 20px;
-  margin-left: 10px;
-  line-height: 1.7; }
-
-@media screen and (max-width: 1068px) {
-  .content-informations {
-    width: 100%; }
   .content-informations .flex-creations {
-    display: block; } }
+    display: flex;
+    align-items: center; }
+  .content-informations .txt-creations {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 1.7; }
+  @media screen and (max-width: 1068px) {
+    .content-informations {
+      width: 100%; }
+      .content-informations .flex-creations {
+        display: block; } }
 
 .para-size {
   width: 1000px !important;

@@ -4,11 +4,9 @@
     z-index: 99;
     width: 100%;
     max-width: 100%;
-    padding: 0px 65px;
+    padding: 0px 25px;
     min-height: 100px;
     background-color: #FFE465;
-
-    
 
     .logo {
         // margin-top: 15px;
@@ -16,6 +14,7 @@
 
         .logo-size {
             width: 75px;
+            margin-top: 5px;
         }
     }
 
@@ -33,6 +32,10 @@
                 color: #4c0bd9;
                 transition: .3s ease-in-out;
 
+                @media screen and (max-width: 1068px) {
+                    line-height: 80px;
+                }
+
                 &:hover {
                     color: #e61b76;
                 }
@@ -45,10 +48,18 @@
             position: absolute;
             opacity: 0;
             visibility: hidden;
+            display: none;
             background: #4badee;
             margin-left: -50px;
             z-index: 99;
             transition: .3s ease-in-out;
+
+            @media screen and (max-width: 1068px) {
+                width: 100%;
+                left: 0 !important;
+                right: 0 !important;
+                margin: 0;  
+            }
 
             .list-items {
                 cursor: pointer;
@@ -86,14 +97,44 @@
 
     @media screen and (max-width: 1068px) {
         display: block;
+        text-align: center;
     }
 }
 
 .flex-list {
     display: flex;
+    @media screen and (max-width: 1068px) {
+        display: none;
+        text-align: center;
+    }
 }
 
+.show {
+    display: block;
+}
+
+
+
+.menu-icon {
+    position: absolute;
+    right: 25px;
+    top:  35px;
+    opacity: 0;
+    cursor: pointer;
+
+    .icon {
+        width: 30px;
+        height: 2.5px;
+        background: #e61b76;
+        margin-bottom: 6px;
+    }
+
+    @media screen and (max-width: 1068px) {
+        opacity: 1;
+    }
+}
 #services-items:hover .sub-menu {
     opacity: 1;
     visibility: visible;
+    display: block;
 }
