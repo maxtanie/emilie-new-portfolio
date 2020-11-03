@@ -7,6 +7,10 @@
     background-position: center;
     transform: scale(1.01);
 
+    @media screen and (max-width: 1068px) {
+        max-width: 100% !important;
+    }
+
     .content {
         width: 52%;
         max-width: 100%;
@@ -27,6 +31,7 @@
             font-size: 1em;
             top: 40%;
             transform: translateY(-40%);
+            padding: 25px;
         }
     }
 

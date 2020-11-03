@@ -10,6 +10,7 @@ const Button = ({txt,bgColor,width, btnWidth, lSpacing, txtSize, fWeight, colorT
         backgroundColor: `${bgColor}`,
         width: `${btnWidth}`,
         minwidth: `${width}`,
+        maxWidth: '100%',
         fontSize: `${txtSize}`,
         padding: `${padding}`,
         textTransform: `${txtTransform}`,

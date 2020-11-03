@@ -28,7 +28,7 @@ export default class BlockCreaInfosText extends Component {
 
     return (
       <div className="blocCreaBlueSkyLight" style={bg}>
-        <h2 className="center title-creations purple-color noto-bold">
+        <h2 className="center main-title-creations purple-color noto-bold">
           {mainTitle}
         </h2>
         <div className="content-informations">

@@ -8,7 +8,7 @@ const Header = ({ text }) => {
     return (
         <header className="bg-header">
             <div className="content">
-                <p className="text-header-presentation">Hello, <br/> La fille sur l'arc-en-ciel c'est moi Emilie !<br/> Je suis graphiste et travaille essentiellement sur des illustrations.</p>
+                <p className="text-header-presentation">Hello, La fille sur l'arc-en-ciel c'est moi Emilie ! Je suis graphiste et travaille essentiellement sur des illustrations.</p>
                 <p className="text-header-presentation">Si vous avez besoin de vous différencier sur vos supports de communication, de créer une identité de marque pour votre projet, je peux vous y aider.</p>
                 <p className="text-header-presentation">Voici comment...</p>
                 <Link to="/portfolio" className="link-anchors">
