@@ -4,8 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  background-position: center;
-  transform: scale(1.01); }
+  background-position: center; }
 
 @media screen and (max-width: 1068px) {
   .bg-header {
