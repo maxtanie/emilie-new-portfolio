@@ -12,6 +12,10 @@
   min-height: 400px;
   transition: 0.3s ease-in-out;
 
+  @media screen and (max-width: 1068px) {
+    min-height: 300px !important;
+  }
+
   .block-img-default {
     img {
       width: 100%;
