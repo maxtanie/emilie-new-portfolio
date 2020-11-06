@@ -5,6 +5,11 @@ margin: auto;
 display: block;
 margin-top: 120px;
 
+@media screen and (max-width: 1080px) {
+    margin-top: 30px;
+    width: 100%;
+}
+
     .prev,
     .next {
         cursor: pointer;
@@ -32,7 +37,7 @@ margin-top: 120px;
 
     .image-container {
         white-space: nowrap;
-        overflow-x: hidden;
+        overflow-x: scroll;
         overflow-y: hidden;
         vertical-align: top;
          display: inline-block;
@@ -44,6 +49,7 @@ margin-top: 120px;
 
         .image {
             width: 690px !important;
+            max-width: 100%;
             font-size: 25px;
             display: inline-block;
             vertical-align: top;
@@ -54,6 +60,8 @@ margin-top: 120px;
                 margin-right: 0;
             }
 
+           
+
         }
     }
 
@@ -62,6 +70,10 @@ margin-top: 120px;
 
 
 
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 // .main {

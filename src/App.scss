@@ -44,6 +44,9 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  scroll-behavior: smooth;
+}
 // h2 {
 //   text-transform: capitalize;
 //   font-family: "great wishes";

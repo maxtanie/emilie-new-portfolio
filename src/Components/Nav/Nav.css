@@ -9,84 +9,70 @@
   padding: 0px 25px;
   min-height: 100px;
   background-color: #FFE465; }
-
-.nav .logo {
-  width: 75px; }
-
-.nav .logo .logo-size {
-  width: 75px;
-  margin-top: 5px; }
-
-.nav .list-menu .list-items {
-  list-style-type: none; }
-
-.nav .list-menu .list-items .anchors-items {
-  cursor: pointer;
-  line-height: 100px;
-  padding: 0 15px;
-  text-decoration: none;
-  color: #4c0bd9;
-  transition: .3s ease-in-out; }
-
-@media screen and (max-width: 1068px) {
-  .nav .list-menu .list-items .anchors-items {
-    line-height: 80px; } }
-
-.nav .list-menu .list-items .anchors-items:hover {
-  color: #e61b76; }
-
-.nav .list-menu .sub-menu {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  display: none;
-  background: #4badee;
-  margin-left: -50px;
-  z-index: 99;
-  transition: .3s ease-in-out; }
-
-@media screen and (max-width: 1068px) {
+  .nav .logo {
+    width: 75px; }
+    .nav .logo .logo-size {
+      width: 75px;
+      margin-top: 5px; }
+  .nav .list-menu .list-items {
+    list-style-type: none; }
+    .nav .list-menu .list-items .anchors-items {
+      cursor: pointer;
+      line-height: 100px;
+      padding: 0 15px;
+      text-decoration: none;
+      color: #4c0bd9;
+      transition: .3s ease-in-out; }
+      @media screen and (max-width: 1068px) {
+        .nav .list-menu .list-items .anchors-items {
+          line-height: 80px; } }
+      .nav .list-menu .list-items .anchors-items:hover {
+        color: #e61b76; }
   .nav .list-menu .sub-menu {
-    width: 100%;
-    left: 0 !important;
-    right: 0 !important;
-    margin: 0; } }
-
-.nav .list-menu .sub-menu .list-items {
-  cursor: pointer;
-  background: #4badee;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid #73bef0;
-  text-align: center; }
-
-.nav .list-menu .sub-menu .list-items:hover {
-  background: #e61b76; }
-
-.nav .list-menu .sub-menu .list-items .anchors-items {
-  padding: 15px;
-  line-height: 50px;
-  color: #fff; }
-
-.nav .list-menu .sub-menu .list-items:last-of-type {
-  border-bottom: none; }
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    background: #4badee;
+    margin-left: -50px;
+    z-index: 99;
+    transition: .3s ease-in-out; }
+    @media screen and (max-width: 1068px) {
+      .nav .list-menu .sub-menu {
+        width: 100%;
+        left: 0 !important;
+        right: 0 !important;
+        margin: 0; } }
+    .nav .list-menu .sub-menu .list-items {
+      cursor: pointer;
+      background: #4badee;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid #73bef0;
+      text-align: center; }
+      .nav .list-menu .sub-menu .list-items:hover {
+        background: #e61b76; }
+      .nav .list-menu .sub-menu .list-items .anchors-items {
+        padding: 15px;
+        line-height: 50px;
+        color: #fff; }
+      .nav .list-menu .sub-menu .list-items:last-of-type {
+        border-bottom: none; }
 
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-
-@media screen and (max-width: 1068px) {
-  .flex {
-    display: block;
-    text-align: center; } }
+  @media screen and (max-width: 1068px) {
+    .flex {
+      display: block;
+      text-align: center; } }
 
 .flex-list {
   display: flex; }
-
-@media screen and (max-width: 1068px) {
-  .flex-list {
-    display: none;
-    text-align: center; } }
+  @media screen and (max-width: 1068px) {
+    .flex-list {
+      display: none;
+      text-align: center; } }
 
 .show {
   display: block; }
@@ -97,16 +83,14 @@
   top: 35px;
   opacity: 0;
   cursor: pointer; }
-
-.menu-icon .icon {
-  width: 30px;
-  height: 2.5px;
-  background: #e61b76;
-  margin-bottom: 6px; }
-
-@media screen and (max-width: 1068px) {
-  .menu-icon {
-    opacity: 1; } }
+  .menu-icon .icon {
+    width: 30px;
+    height: 2.5px;
+    background: #e61b76;
+    margin-bottom: 6px; }
+  @media screen and (max-width: 1068px) {
+    .menu-icon {
+      opacity: 1; } }
 
 #services-items:hover .sub-menu {
   opacity: 1;

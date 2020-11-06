@@ -53,9 +53,9 @@ function BlockInfos({ title, txt, bg, img }) {
     return (
         <React.Fragment>
             <div className="content center" style={backgroundBox}>
-                <a href="/portfolio">Retour</a>
-                <h2 className="f-size-35px">{title}</h2>
-                <p dangerouslySetInnerHTML={{ __html: txt }} className="f-size-35px size-txt" />
+                <a href="/portfolio" className="arrow-left" style={{fontSize: 50, color: "#fff", textDecoration: "none", position: "absolute", left: 30}}>&#8592;</a>
+                <h2 className="f-size-45px" style={{marginTop: 55, fontSize: 45}}>{title}</h2>
+                <p dangerouslySetInnerHTML={{ __html: txt }} className="size-txt" style={{fontSize: 25, marginTop: 15}}/>
             </div>
             <div className="block-img-portfolio">
                 <img src={img} alt="" className

@@ -122,8 +122,22 @@
   margin-top: 0px;
 }
 
+.arrow-left {
+  @media screen and (max-width: 1068px) {
+    margin-top: -30px !important;
+    font-size: 30px !important;
+    font-weight: bold;
+  }
+}
 .f-size-35px {
   font-size: 35px;
+}
+
+.f-size-45px {
+  @media screen and (max-width: 1068px) {
+    font-size: 30px !important;
+    margin-top: 20px !important;
+  }
 }
 
 .size-txt {
@@ -131,6 +145,10 @@
   margin: auto;
   display: block;
   line-height: 1.7;
+
+  @media screen and (max-width: 1068px) {
+    font-size: 20px !important;
+  }
 }
 
 .slider {
@@ -147,11 +165,9 @@
 }
 
 .img-portfolio {
-  max-width: 75%;
+  max-width: 100%;
   margin: auto;
   display: block;
-  margin-top: 25px;
-
 }
 
 .infos {
@@ -203,15 +219,27 @@
 
 .content-txt-portfolio {
   width: 73%;
+  max-width: 100%;
   margin: auto;
   display: block;
   margin-top: 80px;
   text-align: center;
+
+  @media screen and (max-width: 1068px) {
+    width: 100%;
+    padding: 0 25px;
+    text-align: left !important;
+    margin-top: 50px;
+  }
 }
 
 .title-portfolio {
   font-size: 50px;
   text-align: center;
+
+  @media screen and (max-width: 1068px) {
+    font-size: 30px;
+  }
 }
 
 .txt-portfolio {
@@ -223,6 +251,10 @@
   line-height: 1.7;
   margin-top: 25px;
   font-size: 25px;
+
+  @media screen and (max-width: 1068px) {
+    width: 100%;
+  }
 }
 
 .container-horizontal-slide {

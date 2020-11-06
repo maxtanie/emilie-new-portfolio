@@ -24,6 +24,9 @@ body {
   font-family: "notosansjp regular";
   overflow-x: hidden; }
 
+::-webkit-scrollbar {
+  scroll-behavior: smooth; }
+
 .lighter {
   font-weight: lighter !important; }
 
