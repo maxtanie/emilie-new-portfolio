@@ -20,7 +20,7 @@ export default class Profil extends Component {
                 <img
                   src={imgCintic}
                   alt="profil Emilie"
-                  className="img-about"
+                  className="img-about-2"
                 />
               </div>
               <div className="bloc-about bloc-txt-about">

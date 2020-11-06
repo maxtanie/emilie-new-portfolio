@@ -36,10 +36,11 @@
 
         .img-about {
             width: 680px;
-            max-width: 100%;
+            max-width: 100% !important;
         }
 
         @media screen and (max-width: 1068px) {
+        
             display: block;
         }
     }

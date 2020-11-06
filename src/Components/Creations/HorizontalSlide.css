@@ -41,11 +41,11 @@
 
 .main .image-container .image {
   width: 690px !important;
-  max-width: 100%;
+  max-width: 85%;
   font-size: 25px;
   display: inline-block;
   vertical-align: top;
-  margin-right: 18px;
+  margin-right: 10px;
   margin-left: 0; }
 
 .main .image-container .image:last-of-type {
