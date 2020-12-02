@@ -1,26 +1,30 @@
 #identite-visuelle {
   margin-top: -5px; }
-  #identite-visuelle .content-img {
-    position: relative; }
-    #identite-visuelle .content-img .oldeez-size {
-      width: 320px;
-      max-width: 100%;
-      margin-top: 15px; }
-    #identite-visuelle .content-img .chabadou-box-size {
-      width: 100%; }
-    @media screen and (max-width: 1068px) {
-      #identite-visuelle .content-img .oldeez-size,
-      #identite-visuelle .content-img .chabadou-computer-size,
-      #identite-visuelle .content-img .print-my-bootik-size,
-      #identite-visuelle .content-img .chabadou-logo,
-      #identite-visuelle .content-img .my-bootik-size,
-      #identite-visuelle .content-img .retro-size,
-      #identite-visuelle .content-img .sephora-size,
-      #identite-visuelle .content-img .affiche-cinema-size {
-        position: relative;
-        width: 100%;
-        max-width: 100%;
-        margin-top: 10px !important;
-        margin-left: 0; }
-      #identite-visuelle .content-img img {
-        max-width: 100%; } }
+
+#identite-visuelle .content-img {
+  position: relative; }
+
+#identite-visuelle .content-img .oldeez-size {
+  width: 320px;
+  max-width: 100%;
+  margin-top: 15px; }
+
+#identite-visuelle .content-img .chabadou-box-size {
+  width: 100%; }
+
+@media screen and (max-width: 1068px) {
+  #identite-visuelle .content-img .oldeez-size,
+  #identite-visuelle .content-img .chabadou-computer-size,
+  #identite-visuelle .content-img .print-my-bootik-size,
+  #identite-visuelle .content-img .chabadou-logo,
+  #identite-visuelle .content-img .my-bootik-size,
+  #identite-visuelle .content-img .retro-size,
+  #identite-visuelle .content-img .sephora-size,
+  #identite-visuelle .content-img .affiche-cinema-size {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px !important;
+    margin-left: 0; }
+  #identite-visuelle .content-img img {
+    max-width: 100%; } }

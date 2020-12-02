@@ -4,9 +4,10 @@
 .grid-contact {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
-  @media screen and (max-width: 1068px) {
-    .grid-contact {
-      display: block; } }
+
+@media screen and (max-width: 1068px) {
+  .grid-contact {
+    display: block; } }
 
 .contact-left {
   background: #fff;
@@ -45,8 +46,9 @@
 .services-lists {
   margin-right: 3%;
   margin-top: 15px; }
-  .services-lists:last-of-type {
-    margin-right: 0; }
+
+.services-lists:last-of-type {
+  margin-right: 0; }
 
 .label-services {
   display: inline-block;
@@ -72,9 +74,10 @@
   background-color: #e61b76;
   margin-top: 20px;
   transition: all .3s ease-in-out; }
-  .btn-contact:hover {
-    transition: all .3s ease-in-out;
-    background-color: #f5d104; }
+
+.btn-contact:hover {
+  transition: all .3s ease-in-out;
+  background-color: #f5d104; }
 
 .mt-40px {
   margin-top: 40px; }
@@ -82,21 +85,24 @@
 .grid-social-links {
   margin-top: 25px;
   text-align: center; }
-  .grid-social-links .social-links-circles {
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border: 1px solid #eee;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin-right: 2%; }
-    .grid-social-links .social-links-circles:last-of-type {
-      margin-right: 0; }
-    .grid-social-links .social-links-circles:hover {
-      border: none;
-      background-color: #e61b76;
-      transition: all .3s ease-in-out; }
+
+.grid-social-links .social-links-circles {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #eee;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 2%; }
+
+.grid-social-links .social-links-circles:last-of-type {
+  margin-right: 0; }
+
+.grid-social-links .social-links-circles:hover {
+  border: none;
+  background-color: #e61b76;
+  transition: all .3s ease-in-out; }
 
 .contact-picture {
   width: 700px;
@@ -108,10 +114,11 @@
   display: block;
   opacity: 1;
   margin-top: 12px; }
-  .content-icon-contact .icon-contact {
-    width: 100%;
-    display: block;
-    z-index: 98; }
+
+.content-icon-contact .icon-contact {
+  width: 100%;
+  display: block;
+  z-index: 98; }
 
 .mt-15 {
   margin-top: 15px !important; }

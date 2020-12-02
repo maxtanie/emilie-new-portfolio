@@ -25,7 +25,7 @@ import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 const initGA = () => {       
   ReactGA.initialize('UA-184504899-1)'); // put your tracking id here
-  ReactGA.pageview("/HomePage");
+  ReactGA.pageview("/");
 } 
 
 // const GApageView = (page) => {   
