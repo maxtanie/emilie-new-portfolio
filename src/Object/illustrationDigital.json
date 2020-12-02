@@ -4,8 +4,9 @@
             {
                 "PartOne": [
                     {
+                        "projetFictif": "PROJET FICTIF : Fanart digital painting",
                         "title": "Illustration numérique fanart lightning Final Fantasy XIII",
-                        "informations": "Conception en trois étapes tout d’abord dessiner en crayons noire, placer les couleurs de bases et en dernière étape les détails de couleur dessin votre personnage.",
+                        "informations": "Le digital painting donne un réel effet de style et peut-être utilisé dans divers domaines pour apporter une touche très personnelle et un caractère fort aux personnages notamment.Conception en 3 étapes : dessin au crayon noir, puis pose des couleurs de base, et enfin des détails (ombres, etc).",
                         "imgSlide": [
                             {
                                 "img": "img/portfolio/illustration/ordi/finalfantasyxiii-v1-s.jpg"
@@ -24,7 +25,7 @@
                 ],
                 "PartTwo": [
                     {
-                        "title": "Illustration numérique Mannequin Karina Lambard",
+                        "title": "Inspiration : mannequin Karina Lambard",
                         "informations": "Conception en trois étapes tout d’abord en crayons noire dessiner, placer les couleurs d’éclairage et en dernière étape les détails de couleurs sur votre personnage.",
                         "imgSlide": [
                             {
@@ -44,7 +45,7 @@
                 ],
                 "PartThree": [
                     {
-                        "title": "Illustration numérique Teressa Claymore",
+                        "title": "Inspiration : Teresa Claymore Manga",
                         "informations": "Conception en deux étapes tout d’abord dessiner en crayons noire, placer les ombres et les éclairages de couleur grise foncer et claire en dernière étape les détails couleurs sur votre personnage.",
                         "imgSlide": [
                             {

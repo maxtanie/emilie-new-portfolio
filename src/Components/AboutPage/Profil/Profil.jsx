@@ -20,7 +20,7 @@ export default class Profil extends Component {
                 <img
                   src={imgCintic}
                   alt="profil Emilie"
-                  className="img-about-2"
+                  className="img-profil"
                 />
               </div>
               <div className="bloc-about bloc-txt-about">
@@ -50,7 +50,6 @@ export default class Profil extends Component {
           <div className="container-main">
             <div className="content-other-passion">
               <div className="bloc-content">
-                <h2 className="title">Le plus...</h2>
                 <p className="txt-other-passion">
                 En dehors de mon métier de graphiste, je suis passionnée par l’illustration, notamment la création de personnages fictifs inspirés de l’univers HeroicFantasy, mais aussi de l’art traditionnel (peinture, dessin, photo de mode).Retrouvez mon univers sur Instagram, où je partage mes créations.
                 </p>

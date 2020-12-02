@@ -1,44 +1,38 @@
 #a-propos {
   padding-top: 120px;
   padding-bottom: 120px; }
-
-@media screen and (max-width: 1068px) {
-  #a-propos {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important; } }
-
-#a-propos .content-about {
-  display: grid;
-  grid-template-columns: 660px 680px;
-  grid-gap: 90px; }
-
-#a-propos .content-about .bloc-txt-about {
-  padding: 50px 20px; }
-
-#a-propos .content-about .bloc-txt-about .title-about {
-  font-size: 55px;
-  font-weight: bold; }
-
-@media screen and (max-width: 1068px) {
-  #a-propos .content-about .bloc-txt-about .title-about {
-    font-size: 35px !important; } }
-
-#a-propos .content-about .bloc-txt-about .txt-about {
-  margin-top: 25px;
-  font-size: 35px;
-  line-height: 1.7; }
-
-@media screen and (max-width: 1068px) {
-  #a-propos .content-about .bloc-txt-about .txt-about {
-    font-size: 22px !important; } }
-
-#a-propos .content-about .img-about {
-  width: 680px;
-  max-width: 100% !important; }
-
-@media screen and (max-width: 1068px) {
+  @media screen and (max-width: 1068px) {
+    #a-propos {
+      padding-top: 20px !important;
+      padding-bottom: 20px !important; } }
+  #a-propos p {
+    margin-top: 20px;
+    margin-bottom: 20px; }
   #a-propos .content-about {
-    display: block; } }
+    display: grid;
+    grid-template-columns: 660px 680px;
+    grid-gap: 90px; }
+    #a-propos .content-about .bloc-txt-about {
+      padding: 50px 20px; }
+      #a-propos .content-about .bloc-txt-about .title-about {
+        font-size: 55px;
+        font-weight: bold; }
+        @media screen and (max-width: 1068px) {
+          #a-propos .content-about .bloc-txt-about .title-about {
+            font-size: 35px !important; } }
+      #a-propos .content-about .bloc-txt-about .txt-about {
+        margin-top: 25px;
+        font-size: 35px;
+        line-height: 1.7; }
+        @media screen and (max-width: 1068px) {
+          #a-propos .content-about .bloc-txt-about .txt-about {
+            font-size: 22px !important; } }
+    #a-propos .content-about .img-about {
+      width: 680px;
+      max-width: 100% !important; }
+    @media screen and (max-width: 1068px) {
+      #a-propos .content-about {
+        display: block; } }
 
 .container-main {
   width: 1400px;

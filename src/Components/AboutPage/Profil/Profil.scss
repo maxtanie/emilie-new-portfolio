@@ -1,15 +1,27 @@
 #profil {
     padding: 120px 0;
     background: #4badee;
+    @media screen and (max-width: 1068px) {
+        padding: 60px 0;
+    }
 
 
     .content-about {
         display: grid;
-        grid-template-columns: 750px 580px;
+        grid-template-columns: 650px 640px;
         // grid-gap: 100px;
+
+        @media screen and (max-width: 1068px) {
+            display: block;
+            max-width: 100%;
+    
+        }
 
         .bloc-txt-about {
             color: #fff;
+            @media screen and (max-width: 1068px) {
+                padding: 20px;
+            }
 
             .title-profil {
                 font-size: 40px !important;
@@ -20,18 +32,23 @@
             .txt-profil {
                 margin-top: 25px;
                 margin-bottom: 25px;
-                font-size: 24px !important;
+                font-size: 24px;
                 line-height: 1.8;
+
+                @media screen and (max-width: 1068px) {
+                    font-size: 22px;
+                }
 
 
             }
         }
 
-        .img-profil {
-            width: 580px;
-        }
     }
 
+    .img-profil {
+        width: 580px;
+        max-width: 100%;
+    }
 
 }
 
@@ -48,11 +65,12 @@
 
     @media screen and (max-width: 1068px) {
         padding: 40px 0;
+        padding-bottom: 60px;
     }
 
     .content-other-passion {
         display: grid;
-        grid-template-columns: 650px 650px;
+        grid-template-columns: 650px 600px;
         grid-gap: 50px;
 
         @media screen and (max-width: 1068px) {
@@ -69,6 +87,10 @@
             .txt-other-passion {
                 font-size: 35px;
                 color: #fff;
+
+                @media screen and (max-width: 1068px) {
+                    font-size: 22px;
+                }
             }
 
             .grid-img {
@@ -141,4 +163,8 @@
         }
     }
 
+}
+
+.img-cintic {
+    max-width: 100% !important;
 }

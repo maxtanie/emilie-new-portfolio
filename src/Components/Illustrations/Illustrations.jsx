@@ -34,7 +34,7 @@ export default class Illustrations extends Component {
           bgIcon={bgIllustration}
           icon={iconIllustrationPetite}
           link="illustrations"
-          txt="Quoi d emieux que l'illustration pour vous différencier ? Grâce à mes talents de dessinatrice, je créer pour vous un univers original autour de personnages, de bâtiments (architecture), de paysages et de natures mortes. J'iiinnterviens sur vos textes"
+          txt="Quoi de mieux que l'illustration pour vous différencier ? Grâce à mes talents de dessinatrice, je créer pour vous un univers original autour de personnages, de bâtiments (architecture), de paysages et de natures mortes. J'interviens sur vos textes"
           txtButton="Adopter l'illustration comme outil de différencation"
           btnWidth="600px"
         />

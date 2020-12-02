@@ -1,6 +1,7 @@
-import React, { Component } from "react";
+import ReactGA from "react-ga";
+import React, { Component, useEffect } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-// @import "~bootstrap/scss/bootstrap";
+
 
 import "./App.scss";
 import HomePage from "./Components/HomePage/Home";
@@ -15,21 +16,53 @@ import Illustrations from "./Components/Services/Illustrations";
 import Creations from "./Components/Creations/Creations";
 import ListsPages from "./Components/Creations/ListsPages";
 import Contact from "./Components/Contact/Contact";
+import PolitiquesConfidentialite from "./Components/Footer/PolitiquesConfidentialite";
+import MentionsLegales from "./Components/Footer/MentionsLegales";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
-export default class App extends Component {
-  render() {
-    let scroll = 0;
-    window.addEventListener("scroll", function (event) {
-      scroll = this.scrollY;
-      console.log(scroll);
-    });
 
-    console.log(scroll);
+
+
+const initGA = () => {       
+  ReactGA.initialize('UA-184504899-1)'); // put your tracking id here
+  ReactGA.pageview("/HomePage");
+} 
+
+// const GApageView = (page) => {   
+//   ReactGA.pageview(page);   
+// }
+
+// const GAmodalView = (modal) => {
+//   ReactGA.modalview(modal);
+// };
+// GAmodalView("Request Demo");
+
+// const GAevent = (categoryName, eventName) => {
+//   ReactGA.event({       
+//       category: categoryName,  // Required
+//       action: eventName,       // Required
+//       label: 'labelName',       
+//       value: 10,       
+//       nonInteraction: false     
+//   });   
+// }
+
+// const GAtiming = (categoryName, variableName, valueNum) => {
+//   ReactGA.timing({       
+//       category: categoryName,       
+//       variable: variableName,       
+//       value: valueNum
+//   });
+// };
+
+export default function App() {
+  useEffect(() => { initGA(); }, []);
+  // useEffect(() => { GApageView("landing"); }, []);
     return (
       <Router>
         <div>
           <Nav />
-
+          <ScrollToTop initialHeight={200}/>
           <Route>
             <Switch>
               <Route path="/" exact component={HomePage} />
@@ -39,28 +72,13 @@ export default class App extends Component {
               <Route path="/illustrations" component={Illustrations} />
               <Route path="/portfolio" exact component={Creations} />
               <Route path="/portfolio/:id" exact component={ListsPages} />
-              <Route path="/list" component={Lists} />
-              {/* <Route path="/creations" exact component={Creations} />
-            <Route path="/creations/:id" exact component={ListsPages} /> */}
-              <Route path="/a-propos" component={AboutPage} />
-              <Route path="/contact" component={Contact} />
+              <Route path="/qui-suis-je" component={AboutPage} />
+              <Route path="/me-contacter" component={Contact} />
+              <Route path="/politiques-confidentialites" component={PolitiquesConfidentialite} />
+              <Route path="/mentions-legales" component={MentionsLegales} />
             </Switch>
           </Route>
         </div>
       </Router>
     );
-  }
-}
-
-const Lists = () => {
-
-  return (
-    <div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus impedit cum consequatur, soluta iure nemo dolorem architecto voluptatibus. Ducimus autem quaerat dolor quidem assumenda dolores maxime impedit perspiciatis voluptas nam!
-      Voluptatem quos placeat, veniam totam nihil iusto id corrupti maiores, nam alias reprehenderit, optio possimus ea similique ad unde adipisci numquam recusandae fugit facere at dicta? Amet at fuga ipsum!
-      Eum eius fuga id assumenda recusandae magnam facere itaque sequi dolor dolore quod, natus amet vel rerum at cupiditate? Odio expedita sint rerum? Odio impedit labore quos, voluptatem asperiores molestiae?
-      Blanditiis inventore accusantium, deleniti itaque natus neque ipsa, voluptatem incidunt ipsam veniam veritatis odit cumque, id iste at earum. Perspiciatis porro dolores et facere a voluptates reprehenderit dolore aspernatur consequatur?
-      Beatae ut explicabo amet nesciunt eveniet totam consequuntur vel repudiandae saepe maiores eaque ex, architecto quia id, corporis quaerat temporibus sint deserunt facilis praesentium iste ipsum sequi repellendus! Soluta, enim?</p>
-    </div>
-  )
 }

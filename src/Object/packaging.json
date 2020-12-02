@@ -23,7 +23,7 @@
         "alt": "Coca Cola Packaging",
         "mainTitle": "Coca Cola Packaging",
         "txtInformations": "Graphiste, Print et montage photo, design Etiquette / Canette<br/> Mockup Maquette Packaging de canette Coca Cola pour<br/> le jeu vidéo Final Fantasy IX ",
-        "bgColor": "#0E2840"
+        "bgColor": "#862512"
       }
     ]
   },
@@ -32,12 +32,12 @@
       {
         "item": "packaging",
         "itemsName": "Mockup / Graphiste / Packaging",
-        "img": "img/portfolio/packaging/shoes-produits2.jpg",
+        "img": "img/portfolio/packaging/shoes-produits.jpg",
         "name": "mockup-shoes",
         "alt": "Mockup shoes",
-        "mainTitle": "Mockup shoes",
-        "txtInformations": "Graphiste packaging <br/>Titres : Marque Chabadou",
-        "bgColor": "#ffd600"
+        "mainTitle": "Mockup",
+        "txtInformations": "Packaging et design d’objets<br/> <b>PROJETS FICTIFS :</b> Chabadou",
+        "bgColor": "#ffea59"
       }
     ]
   }

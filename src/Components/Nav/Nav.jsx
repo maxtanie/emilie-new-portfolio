@@ -72,12 +72,12 @@ export default class Nav extends Component {
               </ul>
             </li>
             <li className="list-items">
-              <a className="anchors-items noto-regular" href="/a-propos">
+              <a className="anchors-items noto-regular" href="/qui-suis-je">
                 Qui suis-je ?
               </a>
             </li>
             <li className="list-items">
-              <a className="anchors-items noto-regular" href="/contact">
+              <a className="anchors-items noto-regular" href="/me-contacter">
                 Me Contacter
               </a>
             </li>

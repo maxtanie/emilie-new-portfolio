@@ -2,9 +2,10 @@
   position: relative;
   padding-top: 100px;
   padding-bottom: 20px;
-  background: #0E2840 url("../../images/home/footer/logo nav barre.png") no-repeat;
-  background-size: 120px;
-  background-position: 80% 15%; }
+  background-color: #0E2840; }
+  @media screen and (max-width: 1068px) {
+    #footer {
+      padding-top: 50px; } }
   #footer .content-footer {
     width: 800px;
     max-width: 90%;
@@ -63,9 +64,12 @@
           background-size: cover; }
         #footer .content-footer .grid-footer-infos .infos-footer .icon-behance:hover {
           background-image: url("../../images/home/footer/icone-behance.png");
-          width: 35px;
+          width: 37px;
           background-repeat: repeat;
           background-size: cover; }
+    #footer .content-footer a {
+      color: #fff;
+      text-decoration: none; }
   #footer .underline {
     text-decoration: underline !important; }
   #footer .mentions-legales {
@@ -73,3 +77,20 @@
     color: #fff;
     font-size: 0.9em;
     margin-top: 75px; }
+
+.d-flex {
+  display: flex; }
+  @media screen and (max-width: 1068px) {
+    .d-flex {
+      display: block; } }
+
+.logo-footer {
+  width: 120px;
+  height: 144px;
+  margin-top: 35px; }
+  @media screen and (max-width: 1068px) {
+    .logo-footer {
+      width: 100px;
+      height: 124px;
+      margin-top: 20px;
+      margin-left: 5px; } }

@@ -4,8 +4,10 @@
             {
                 "PartOne": [
                     {
-                        "title": "Newsletter Shéphora ",
-                        "informations": "Une composition de la mise en page et typographie et un bouton en un clic avec une photo de beauté qui présente une bonne affaire à consulter et des offres de promos. Projet fictif graphisme ",
+                        "projetFictif": "PROJET FICTIF SEPHORA",
+                        "title": "Réalisation d’une newsletter",
+                        "informations": "augmenter le taux de conversion d’une newsletter promotionnelle",
+                        "informationsSecond": "mise en avant des promotions avec une police plus grande, et un texte blanc sur fond rouge pour accrocher l’œil, et un appel à l’action mis en valeur.",
                         "imgSlide": [
                             {
                                 "img": "img/portfolio/fonce-sephora.jpg"
@@ -18,8 +20,10 @@
                 ],
                 "PartTwo": [
                     {
-                        "title": "Newsletter de produit et de décoration",
-                        "informations": "Une composition d’image et l’objet de décoration pot de fleur mise en avant sur un prix seulement en un clic vous saurez directement transferrer sur la page produit du site Florajet. Projet fictif graphisme ",
+                        "projetFictif": "PROJET FICTIF FLORAJET",
+                        "title": "Réalisation d’une newsletter pour une marque de livraison de fleurs",
+                        "informations": "Augmenter le trafic sur la page d’accueil du site web.",
+                        "informationsSecond": "Mise en valeur du produit, de l’offre, et appel à l’action coloré.",
                         "imgSlide": [
                             {
                                 "img": "img/portfolio/fond-newletter.jpg"
@@ -32,8 +36,10 @@
                 ],
                 "PartThree": [
                     {
-                        "title": "Maquette Starbucks",
-                        "informations": "La composition de la Maquette à été fait sur photoshop et les images les unes en dessous des autres afin de créer une armonie vintage entre le rose bonbon, le beige claire et foncer, le gris foncer. Exemple de conception UI design, projet fictif graphisme.",
+                        "projetFictif": "PROJET FICTIF STARBUCKS",
+                        "title": "Réalisation d’une newsletter",
+                        "informations": "optimiser l’UI",
+                        "informationsSecond": "Composition permettant de plonger dans l’univers Starbucks à l’aide d’éléments symboliques (packaging produit, point de vente).",
                         "imgSlide": [
                             {
                                 "img": "img/portfolio/maquette-stacbuck-n.jpg"

@@ -44,9 +44,7 @@ body {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
-  scroll-behavior: smooth;
-}
+
 // h2 {
 //   text-transform: capitalize;
 //   font-family: "great wishes";
@@ -268,5 +266,60 @@ body {
     max-width: 90%;
     text-align: left;
     padding-left: 20px;
+  }
+}
+
+/*Politique confidentialité*/
+.purple-text {
+  color: #4f0fd5;
+}
+
+.content-big-title {
+  padding: 90px 160px;
+  background-color: #ffe465;
+  border-bottom: 70px solid #455cab;
+}
+
+.title-rules {
+  font-size: 2em;
+}
+
+.container-rules {
+  width: 1300px;
+  max-width: 90%;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.container-rules p,
+h2,
+h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.container-rules h2 {
+  font-size: 2em;
+}
+.container-rules a {
+  text-decoration: underline;
+  color: #4f0fd5;
+}
+
+@media screen and (max-width: 1068px) {
+  .container-rules {
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  .content-big-title {
+    padding: 30px 60px;
+    border-bottom: 45px solid #455cab;
+  }
+  .title-rules {
+    font-size: 1.2em;
   }
 }

@@ -8,8 +8,8 @@
         "name": "carte-de-visite-graphiste",
         "alt": "Carte de visite graphiste",
         "mainTitle": "Carte de visite",
-        "txtInformations": "Graphiste montage d’image<br/> Titres : Activité Switch-snes",
-        "bgColor": "#0E2840"
+        "txtInformations": "Graphisme print et illustration<br/> <b>CLIENT :</b> Emilie Pham Da <br/>Réalisation d’une carte de visite pour l’activité d’illustratrice et graphiste freelance d’Emilie Pham Da.<br/>",
+        "bgColor": "#28272c"
       }
     ]
   },
@@ -21,9 +21,9 @@
         "img": "img/portfolio/carte-de-visite.jpg",
         "name": "carte-de-visite-mallyance",
         "alt": "Carte de visite Mallyance",
-        "mainTitle": "Carte de visite Mallyance",
-        "txtInformations": "Design de mise en page <br/> Titres : modification",
-        "bgColor": "#0E2840"
+        "mainTitle": "Carte de visite",
+        "txtInformations": "Graphisme et composition <br/> <b>CLIENTS:</b> Mallyance",
+        "bgColor": "#5B5B5B"
       }
     ]
   },
@@ -60,7 +60,7 @@
       {
         "item": "print",
         "itemsName": "Web / Design / Print",
-        "img": "img/portfolio/carte-visite-emilie.jpg",
+        "img": "img/portfolio/print/carte-visite-emilie-pham-da.jpg",
         "name": "carte-de-visite-freelance",
         "alt": "Carte de visite freelance",
         "mainTitle": "Carte de visite Freelance",
@@ -92,7 +92,7 @@
         "name": "logotype",
         "alt": "Logotype",
         "mainTitle": "Logotype",
-        "txtInformations": "Typographie<br/>Titres : Transformation Typographie",
+        "txtInformations": "Design et choix graphiques",
         "bgColor": "#4ad4f1"
       }
     ]
@@ -103,9 +103,9 @@
         "item": "print",
         "itemsName": "Graphiste / Montage photo / Design etiquette / Print",
         "img": "img/portfolio/print/canette-final-fantasy-ix.jpg",
-        "name": "coca-cola",
-        "alt": "Coca Cola",
-        "mainTitle": "Coca Cola",
+        "name": "canette-final-fantasy",
+        "alt": "Canette final fantasy",
+        "mainTitle": "Canette final fantasy",
         "txtInformations": "Graphiste, Print et montage photo, design Etiquette / Canette<br/> Mockup Maquette Packaging de canette Coca Cola pour le jeu vidéo Final Fantasy IX ",
         "bgColor": "#862713"
       }

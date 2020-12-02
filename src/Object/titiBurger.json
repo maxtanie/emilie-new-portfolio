@@ -4,8 +4,9 @@
             {
                 "PartOne": [
                     {
-                        "title": "Projet site Titi burger",
-                        "informations": "Activité restauration de chaîne maison tout est fait avec beaucoup d’application. Charger de la création UX /UI Design : graphique composer d’icônes et de deux type de typographie Lobst bold pour les Titre et text/ Amatic SC / outils barre menu option du Projet fictif graphisme Ecole Doranco",
+                        "title": "Réalisation de la maquette et de la charte graphique (pictogrammes inclus) d’une application pour une marque de burger végétal.",
+                        "informations": "Optimiser l’expérience client (commande via l’application)",
+                        "informationsSecond": "Des codes couleurs rappelant un univers végétal, une interface simple et agréable, une police qui donne un côté complice.",
                         "imgSlide": [
                             {
                                 "img": "img/portfolio/ui-kit1-burger.png"

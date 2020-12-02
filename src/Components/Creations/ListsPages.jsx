@@ -99,7 +99,7 @@ function ListsPages() {
                         <div id="portfolio-affiches-cinema" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                             {list.PartTwo.map((datas, index) => {
@@ -107,7 +107,7 @@ function ListsPages() {
                                     <div>
                                         <div className="content-txt-portfolio">
                                             <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                            <p className="txt-portfolio">{datas.informations}</p>
+                                            <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
 
                                         </div>
                                         <HorizontalSlide vals={datas.imgSlide} />
@@ -133,7 +133,7 @@ function ListsPages() {
                         <div id="portfolio-flyers-my-bootik" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                         </div >
@@ -155,14 +155,14 @@ function ListsPages() {
                         <div id="portfolio-flyers-my-bootik" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                             {list.PartTwo.map((datas, index) => {
                                 return (
                                     <div>
                                         <div className="content-txt-portfolio">
-                                            <p className="txt-portfolio">{datas.informations}</p>
+                                            <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
 
                                         </div>
                                         <HorizontalSlide vals={datas.imgSlide} />
@@ -199,7 +199,7 @@ function ListsPages() {
                         <div id="portfolio-magazine-retrogame" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                             {list.PartTwo.map((datas, index) => {
@@ -230,7 +230,7 @@ function ListsPages() {
                         <div id="portfolio-carte-de-visite-freelance" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                         </div >
@@ -251,13 +251,12 @@ function ListsPages() {
                         <div id="portfolio-titi-burger" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p><br/>
-                                <p className="txt-portfolio" style={{marginTop: -5, fontWeight: "bold"}}>Lien directe du prototypage Adobe XD UX/UI Design :</p>
-                                <a target="_blank" href="https://xd.adobe.com/view/d495829c-cf13-40e3-ac-db-5328457fe7a7-81c6/?fullscreen&hints=off" style={{width: "70%", margin: "auto", textAlign: "center", padding: "15px", background: "#ffd600", marginTop: 45, display: "block", textDecoration: "none", color: "#fff", fontSize: 25}}>Voir le prototype</a>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p><br/>
+                                <span className="txt-portfolio"><b>Partis-pris créatifs: </b>{datas.informationsSecond}</span>
 
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
-                            <a target="_blank" href="https://xd.adobe.com/view/d495829c-cf13-40e3-ac-db-5328457fe7a7-81c6/?fullscreen&hints=off" style={{width: "70%", margin: "auto", textAlign: "center", padding: "15px", background: "#ffd600", marginTop: 45, display: "block", textDecoration: "none", color: "#fff", fontSize: 25}}>Voir le prototype</a>
+                            <a target="_blank" href="https://xd.adobe.com/view/d495829c-cf13-40e3-acdb-5328457fe7a7-81c6/?fullscreen&hints=off" style={{width: "70%", margin: "auto", textAlign: "center", padding: "15px", background: "#ffd600", marginTop: 45, display: "block", textDecoration: "none", color: "#fff", fontSize: 25}}>Voir le prototype</a>
                         </div >
 
 
@@ -278,7 +277,7 @@ function ListsPages() {
                         <div id="portfolio-logotype" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                         </div >
@@ -300,7 +299,8 @@ function ListsPages() {
                         <div id="portfolio-carte-de-visite-graphiste" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: {datas.informations}</b></p>
+                                <p className="txt-portfolio"><b>Partis-pris créatifs :</b>{datas.informationsSecond}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                         </div >
@@ -322,7 +322,7 @@ function ListsPages() {
                         <div id="portfolio-paper-toy" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                         </div >
@@ -344,17 +344,20 @@ function ListsPages() {
                         return (
                             <div id="portfolio-sephora-newsletter" className="content-portfolio">
                                 <div className="content-txt-portfolio">
+                                    <h2>{datas.projetFictif}</h2>
                                     <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                    <p className="txt-portfolio">{datas.informations}</p>
+                                    <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
+                                    <p className="txt-portfolio"><b>Objectif: </b>{datas.informationsSecond}</p>
                                 </div>
                                 <HorizontalSlide vals={datas.imgSlide} />
                                 {list.PartTwo.map((datas, index) => {
                                     return (
                                         <div>
                                             <div className="content-txt-portfolio">
-                                            <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                                <p className="txt-portfolio">{datas.informations}</p>
-    
+                                                <h2>{datas.projetFictif}</h2>
+                                                <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
+                                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
+                                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informationsSecond}</p>
                                             </div>
                                             <HorizontalSlide vals={datas.imgSlide} />
                                         </div>
@@ -365,9 +368,10 @@ function ListsPages() {
                                     return (
                                         <div>
                                             <div className="content-txt-portfolio">
-                                            <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                                <p className="txt-portfolio">{datas.informations}</p>
-    
+                                                <h2>{datas.projetFictif}</h2>
+                                                <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
+                                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
+                                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informationsSecond}</p>
                                             </div>
                                             <HorizontalSlide vals={datas.imgSlide} />
                                         </div>
@@ -395,7 +399,7 @@ function ListsPages() {
                         <div id="portfolio-paper-toy" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                         </div >
@@ -424,13 +428,10 @@ function ListsPages() {
                                         <div>
                                             <div className="content-txt-portfolio">
                                             <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                                <p className="txt-portfolio">{datas.informations}</p>
-                                                <p className="txt-portfolio" style={{marginTop: 5, fontWeight: "bold"}}>Lien directe du prototypage Adobe XD UX/UI Design :</p>
+                                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>                               
+                                                
                                             </div>
-                                            <a target="_blank" href="https://xd.adobe.com/view/091390d1-71d4-
-                                                421e-6402-0a235e06ccfe-7f22/?fbclid=IwAR2569yazQqeeb33Ts9Dy
-                                                j3_5eqOLKpq-wCHENFm2w_WkJxQQbzKXU0
-                                                b10U" style={{width: "70%", margin: "auto", textAlign: "center", padding: "15px", background: "#ffd600", marginTop: 45, display: "block", textDecoration: "none", color: "#fff", fontSize: 25}}>Voir le prototype</a>
+                                            <a target="_blank" href="https://xd.adobe.com/view/091390d1-71d4-421e-6402-0a235e06ccfe-7f22/?fbclid=IwAR2569yazQqeeb33Ts9Dyj3_5eqOLKpq-wCHENFm2w_WkJxQQbzKXU0b10U" style={{width: "70%", margin: "auto", textAlign: "center", padding: "15px", background: "#ffd600", marginTop: 45, display: "block", textDecoration: "none", color: "#fff", fontSize: 25}}>Voir le prototype</a>
                                             <HorizontalSlide vals={datas.imgSlide} />
                                         </div>
                                     )
@@ -460,7 +461,7 @@ function ListsPages() {
                         <div id="portfolio-mockup-shoes" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                         </div >
@@ -483,7 +484,7 @@ function ListsPages() {
                         <div id="portfolio-illustration" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                <p className="txt-portfolio">{datas.informations}</p>
+                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
                             </div>
                             <HorizontalSlide vals={datas.imgSlide} />
                             {list.PartTwo.map((datas, index) => {
@@ -491,7 +492,7 @@ function ListsPages() {
                                     <div>
                                         <div className="content-txt-portfolio">
                                             <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                            <p className="txt-portfolio">{datas.informations}</p>
+                                            <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
 
                                         </div>
                                         <HorizontalSlide vals={datas.imgSlide} />
@@ -504,7 +505,7 @@ function ListsPages() {
                                     <div>
                                         <div className="content-txt-portfolio">
                                             <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                            <p className="txt-portfolio">{datas.informations}</p>
+                                            <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>
 
                                         </div>
                                         <HorizontalSlide vals={datas.imgSlide} />

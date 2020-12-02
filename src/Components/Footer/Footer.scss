@@ -2,9 +2,16 @@
     position: relative;
     padding-top: 100px;
     padding-bottom: 20px;
-    background: #0E2840 url("../../images/home/footer/logo\ nav\ barre.png") no-repeat;
-    background-size: 120px;
-    background-position: 80% 15%;
+    background-color: #0E2840;
+    // background: #0E2840 url("../../images/home/footer/logo\ nav\ barre.png") no-repeat;
+    // background-size: 120px;
+    // background-position: 80% 15%;
+
+    @media screen and(max-width: 1068px){
+        padding-top: 50px;
+        // background-size: 110px;
+        // background-position: 10% 29%;
+    }
 
     .content-footer {
         width: 800px;
@@ -92,12 +99,16 @@
 
                 .icon-behance:hover {
                     background-image: url("../../images/home/footer/icone-behance.png");
-                    width: 35px;
+                    width: 37px;
                     background-repeat: repeat;
                     background-size: cover;
                 }
 
             }
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
         }
 
 
@@ -112,5 +123,23 @@
         color: #fff;
         font-size: 0.9em;
         margin-top: 75px;
+    }
+}
+
+.d-flex {
+    display: flex;
+    @media screen and (max-width: 1068px) {
+        display: block;
+    }
+}
+.logo-footer {
+    width: 120px;
+    height: 144px;
+    margin-top: 35px;
+    @media screen and (max-width: 1068px) {
+        width: 100px;
+        height: 124px;
+        margin-top: 20px;
+        margin-left: 5px;
     }
 }

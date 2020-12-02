@@ -1,0 +1,13 @@
+RewriteEngine off
+Order Deny, Allow
+Allow from all
+Satisfy any
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^emiliephamda\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.emiliephamda\.com$
+RewriteRule ^(.*)$ "https\:\/\/emiliephamda\.com\/$1" [R=301,L]
+# RewriteRule .* index.html
