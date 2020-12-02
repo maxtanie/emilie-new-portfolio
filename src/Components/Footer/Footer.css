@@ -3,114 +3,94 @@
   padding-top: 100px;
   padding-bottom: 20px;
   background-color: #0E2840; }
-
-@media screen and (max-width: 1068px) {
-  #footer {
-    padding-top: 50px; } }
-
-#footer .content-footer {
-  width: 800px;
-  max-width: 90%;
-  margin: auto;
-  display: block; }
-
-#footer .content-footer .title-footer {
-  width: 700px;
-  max-width: 100%;
-  font-size: 40px;
-  color: #fff; }
-
-@media screen and (max-width: 1068px) {
-  #footer .content-footer .title-footer {
-    font-size: 25px; } }
-
-#footer .content-footer .grid-footer-infos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
-  margin-top: 80px; }
-
-#footer .content-footer .grid-footer-infos .infos-footer {
-  padding: 10px;
-  color: #ffd600;
-  line-height: 1.9;
-  margin-top: -30px; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .link-footer {
-  text-decoration: none;
-  color: #ffd600;
-  display: block;
-  line-height: 2;
-  transition: .3s ease-in-out; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .link-footer:hover {
-  color: #fff; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .name-footer-infos {
-  font-size: 25px;
-  color: #fff;
-  margin-bottom: 15px; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .content-icon {
-  width: 35px; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .content-icon .icon-footer {
-  width: 100%;
-  display: block;
-  margin-bottom: 20px;
-  z-index: 98; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .icon-instagram:hover .icon-footer,
-#footer .content-footer .grid-footer-infos .infos-footer .icon-linkedin:hover .icon-footer,
-#footer .content-footer .grid-footer-infos .infos-footer .icon-behance:hover .icon-footer {
-  opacity: 0; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .icon-instagram:hover {
-  background-image: url("../../images/home/footer/icone-instagram.png");
-  width: 35px;
-  background-repeat: repeat;
-  background-size: cover; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .icon-linkedin:hover {
-  background-image: url("../../images/home/footer/icone-linkeding.png");
-  width: 35px;
-  background-repeat: repeat;
-  background-size: cover; }
-
-#footer .content-footer .grid-footer-infos .infos-footer .icon-behance:hover {
-  background-image: url("../../images/home/footer/icone-behance.png");
-  width: 37px;
-  background-repeat: repeat;
-  background-size: cover; }
-
-#footer .content-footer a {
-  color: #fff;
-  text-decoration: none; }
-
-#footer .underline {
-  text-decoration: underline !important; }
-
-#footer .mentions-legales {
-  text-align: center;
-  color: #fff;
-  font-size: 0.9em;
-  margin-top: 75px; }
+  @media screen and (max-width: 1068px) {
+    #footer {
+      padding-top: 50px; } }
+  #footer .content-footer {
+    width: 800px;
+    max-width: 90%;
+    margin: auto;
+    display: block; }
+    #footer .content-footer .title-footer {
+      width: 700px;
+      max-width: 100%;
+      font-size: 40px;
+      color: #fff; }
+      @media screen and (max-width: 1068px) {
+        #footer .content-footer .title-footer {
+          font-size: 25px; } }
+    #footer .content-footer .grid-footer-infos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      margin-top: 80px; }
+      #footer .content-footer .grid-footer-infos .infos-footer {
+        padding: 10px;
+        color: #ffd600;
+        line-height: 1.9;
+        margin-top: -30px; }
+        #footer .content-footer .grid-footer-infos .infos-footer .link-footer {
+          text-decoration: none;
+          color: #ffd600;
+          display: block;
+          line-height: 2;
+          transition: .3s ease-in-out; }
+          #footer .content-footer .grid-footer-infos .infos-footer .link-footer:hover {
+            color: #fff; }
+        #footer .content-footer .grid-footer-infos .infos-footer .name-footer-infos {
+          font-size: 25px;
+          color: #fff;
+          margin-bottom: 15px; }
+        #footer .content-footer .grid-footer-infos .infos-footer .content-icon {
+          width: 35px; }
+          #footer .content-footer .grid-footer-infos .infos-footer .content-icon .icon-footer {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+            z-index: 98; }
+        #footer .content-footer .grid-footer-infos .infos-footer .icon-instagram:hover .icon-footer,
+        #footer .content-footer .grid-footer-infos .infos-footer .icon-linkedin:hover .icon-footer,
+        #footer .content-footer .grid-footer-infos .infos-footer .icon-behance:hover .icon-footer {
+          opacity: 0; }
+        #footer .content-footer .grid-footer-infos .infos-footer .icon-instagram:hover {
+          background-image: url("../../images/home/footer/icone-instagram.png");
+          width: 35px;
+          background-repeat: repeat;
+          background-size: cover; }
+        #footer .content-footer .grid-footer-infos .infos-footer .icon-linkedin:hover {
+          background-image: url("../../images/home/footer/icone-linkeding.png");
+          width: 35px;
+          background-repeat: repeat;
+          background-size: cover; }
+        #footer .content-footer .grid-footer-infos .infos-footer .icon-behance:hover {
+          background-image: url("../../images/home/footer/icone-behance.png");
+          width: 37px;
+          background-repeat: repeat;
+          background-size: cover; }
+    #footer .content-footer a {
+      color: #fff;
+      text-decoration: none; }
+  #footer .underline {
+    text-decoration: underline !important; }
+  #footer .mentions-legales {
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 75px; }
 
 .d-flex {
   display: flex; }
-
-@media screen and (max-width: 1068px) {
-  .d-flex {
-    display: block; } }
+  @media screen and (max-width: 1068px) {
+    .d-flex {
+      display: block; } }
 
 .logo-footer {
   width: 120px;
   height: 144px;
   margin-top: 35px; }
-
-@media screen and (max-width: 1068px) {
-  .logo-footer {
-    width: 100px;
-    height: 124px;
-    margin-top: 20px;
-    margin-left: 5px; } }
+  @media screen and (max-width: 1068px) {
+    .logo-footer {
+      width: 100px;
+      height: 124px;
+      margin-top: 20px;
+      margin-left: 5px; } }

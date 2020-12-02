@@ -1,0 +1,22 @@
+.grid-btns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  margin-top: 50px;
+  padding: 20px 120px; }
+  @media screen and (max-width: 1068px) {
+    .grid-btns {
+      padding: 25px;
+      margin-top: 0; } }
+
+.btn-creations {
+  cursor: pointer;
+  border: 2px solid #fff;
+  font-size: 20px;
+  text-align: center;
+  height: 64px;
+  line-height: 64px;
+  transition: 0.3s ease-in-out; }
+  .btn-creations:hover {
+    border: 2px solid #4c0bd9;
+    background: #4c0bd9; }
