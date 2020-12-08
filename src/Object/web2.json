@@ -8,7 +8,7 @@
         "name": "titi-burger",
         "alt": "Titi burger",
         "mainTitle": "Site web",
-        "txtInformations": "Webdesign, UX / Ui<br/> <b>PROJET FICTIF</b>: Titi Burger",
+        "txtInformations": "Webdesign, prototypage, UX / UI<br/> <b>PROJET FICTIF</b>: Titi Burger",
         "bgColor": "#0E2840"
       }
     ]
@@ -35,8 +35,8 @@
         "img": "img/portfolio/web/appli-mob-titi-burger.jpg",
         "name": "application-mobile",
         "alt": "Application mobile",
-        "mainTitle": "Application mobile",
-        "txtInformations": "Graphiste Print et mise en page, prototypage Titres : Titi Burger Végétal",
+        "mainTitle": "Application mobile Webdesign",
+        "txtInformations": "Webdesign, UX / UI<br/> <b>PROJET FICTIF :</b> Titi Burger",
         "bgColor": "#4bd2f0"
       }
     ]

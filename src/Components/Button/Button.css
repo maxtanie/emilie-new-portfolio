@@ -1,5 +1,0 @@
-.btn {
-  transition: all .3s ease-in-out;
-  display: inline-block; }
-  .btn:hover {
-    transform: scale(0.9); }

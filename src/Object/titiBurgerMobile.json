@@ -16,8 +16,9 @@
                 ],
                 "PartTwo": [
                     {
-                        "title": "Projet Mobile Titi Burger",
-                        "informations": "Application Mobile commander vos ingrédients et votre menu burger qui vont avec la boissons du choix. Projet fictif graphisme Ecole Doranco",
+                        "title": "Réalisation de la maquette et de la charte graphique (pictogrammes inclus) d’une application pour une marque de burger végétal.",
+                        "informations": "Optimiser l’expérience client (commande via l’application)",
+                        "informationsSecond": " des codes couleurs rappelant un univers végétal, une interface simple et agréable, une police qui donne un côté complice.",
                         "imgSlide": [
                             {
                                 "img": "img/portfolio/web/ordi/appli-mob-titi-burger2.jpg"

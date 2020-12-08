@@ -251,6 +251,7 @@ function ListsPages() {
                         <div id="portfolio-titi-burger" className="content-portfolio">
                             <div className="content-txt-portfolio">
                                 <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
+                                <p className="txt-portfolio">Titi burger est une chaîne de restauration de burgers végétaux « faits maison »</p>
                                 <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p><br/>
                                 <span className="txt-portfolio"><b>Partis-pris créatifs: </b>{datas.informationsSecond}</span>
 
@@ -428,7 +429,8 @@ function ListsPages() {
                                         <div>
                                             <div className="content-txt-portfolio">
                                             <h2 className="title-portfolio dark-blue-color">{datas.title}</h2>
-                                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p>                               
+                                                <p className="txt-portfolio"><b>Objectif: </b>{datas.informations}</p> 
+                                                <p className="txt-portfolio"><b>Partis-pris créatifs :</b>{datas.informationsSecond}</p>                             
                                                 
                                             </div>
                                             <a target="_blank" href="https://xd.adobe.com/view/091390d1-71d4-421e-6402-0a235e06ccfe-7f22/?fbclid=IwAR2569yazQqeeb33Ts9Dyj3_5eqOLKpq-wCHENFm2w_WkJxQQbzKXU0b10U" style={{width: "70%", margin: "auto", textAlign: "center", padding: "15px", background: "#ffd600", marginTop: 45, display: "block", textDecoration: "none", color: "#fff", fontSize: 25}}>Voir le prototype</a>

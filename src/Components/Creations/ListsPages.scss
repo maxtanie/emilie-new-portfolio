@@ -134,6 +134,7 @@
 }
 
 .f-size-45px {
+  text-transform: uppercase;
   @media screen and (max-width: 1068px) {
     font-size: 30px !important;
     margin-top: 20px !important;
@@ -141,6 +142,7 @@
 }
 
 .size-txt {
+  width: 60%;
   max-width: 100%;
   margin: auto;
   display: block;
@@ -235,7 +237,7 @@
 }
 
 .title-portfolio {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 
   @media screen and (max-width: 1068px) {
